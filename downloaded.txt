@@ -24625,3 +24625,17 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=B64km_PLUS_X7QUaAF
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Lvcgh5i5IA82TudP3X5Xzw== > PDFs/944624/508262_2015_jordan_alston_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Mr94LBfYHpsBA8JBteoMdQ== > PDFs/944191/501780_2015_kenton_degale_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://s3.documentcloud.org/documents/28035158/202200397_redactedclosingreportpdf.pdf > PDFs/946943/202200397_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035121/202303761_redactedclosingreportpdf.pdf > PDFs/970052/202303761_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035151/202201566_redactedclosingreportpdf.pdf > PDFs/936208/202201566_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035097/202406191_redactedclosingreportpdf.pdf > PDFs/960674/202406191_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035103/202401226_redactedclosingreportpdf.pdf > PDFs/960674/202401226_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035147/202202961_redactedclosingreportpdf.pdf > PDFs/964062/202202961_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035131/202301904_redactedclosingreportpdf.pdf > PDFs/968515/202301904_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035166/202105168_redactedclosingreportpdf.pdf > PDFs/928934/202105168_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035152/202200063_redactedclosingreportpdf.pdf > PDFs/967512/202200063_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035144/202206667_redactedclosingreportpdf.pdf > PDFs/928878/202206667_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035149/202203710_redactedclosingreportpdf.pdf > PDFs/966663/202203710_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035255/201609998_redactedclosingreportpdf.pdf > PDFs/945089/201609998_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28012902/hallis_03312026pdf.pdf > PDFs/960633/hallis_03312026pdf.pdf
+https://s3.documentcloud.org/documents/28035186/201910619_redactedclosingreportpdf.pdf > PDFs/962443/201910619_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035143/202204302_redactedclosingreportpdf.pdf > PDFs/963010/202204302_redactedclosingreportpdf.pdf
