@@ -24649,3 +24649,15 @@ https://s3.documentcloud.org/documents/28035118/202306570_redactedclosingreportp
 https://s3.documentcloud.org/documents/27965253/202410311_tax977117_redacteddepartureletterpdf.pdf > PDFs/977117/202410311_tax977117_redacteddepartureletterpdf.pdf
 https://s3.documentcloud.org/documents/28035120/202305059_redactedclosingreportpdf.pdf > PDFs/964614/202305059_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28065587/202409832_redactedclosingreportpdf.pdf > PDFs/947373/202409832_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035100/202401500_redactedclosingreportpdf.pdf > PDFs/972142/202401500_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035170/202102575_redactedclosingreportpdf.pdf > PDFs/930412/202102575_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035135/202208392_redactedclosingreportpdf.pdf > PDFs/957895/202208392_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28018922/957895_02172026_2026012pdf.pdf > PDFs/957895/957895_02172026_2026012pdf.pdf
+https://s3.documentcloud.org/documents/28035286/201504318_redactedclosingreportpdf.pdf > PDFs/955779/201504318_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035238/201901335_redactedclosingreportpdf.pdf > PDFs/963733/201901335_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035153/202202614_redactedclosingreportpdf.pdf > PDFs/940131/202202614_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035177/202001478_redactedclosingreportpdf.pdf > PDFs/955536/202001478_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035179/202001295_redactedclosingreportpdf.pdf > PDFs/932499/202001295_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065591/202408694_redactedclosingreportpdf.pdf > PDFs/976224/202408694_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035299/201501199_redactedclosingreportpdf.pdf > PDFs/953806/201501199_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035270/201604243_redactedclosingreportpdf.pdf > PDFs/954214/201604243_redactedclosingreportpdf.pdf
