@@ -24758,3 +24758,5 @@ https://s3.documentcloud.org/documents/28065595/202406182_redactedclosingreportp
 https://s3.documentcloud.org/documents/27965251/202406182_tax966501_redacteddepartureletterpdf.pdf > PDFs/966501/202406182_tax966501_redacteddepartureletterpdf.pdf
 https://s3.documentcloud.org/documents/28035210/201903998_redactedclosingreportpdf.pdf > PDFs/962159/201903998_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28018924/959287_02132026_2026011pdf.pdf > PDFs/959287/959287_02132026_2026011pdf.pdf
+https://s3.documentcloud.org/documents/28066012/201608578-redactedclosingreport-redacted.pdf > PDFs/943266/201608578_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066861/201105019-redactedclosingreport-redacted.pdf > PDFs/942113/201105019_redactedclosingreport_redacted.pdf
