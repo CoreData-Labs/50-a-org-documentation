@@ -24732,6 +24732,7 @@ https://s3.documentcloud.org/documents/28035099/202403962_redactedclosingreportp
 https://s3.documentcloud.org/documents/28035193/201904933_redactedclosingreportpdf.pdf > PDFs/947985/201904933_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035277/201504616_redactedclosingreportpdf.pdf > PDFs/935599/201504616_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035142/202205146_redactedclosingreportpdf.pdf > PDFs/937726/202205146_redactedclosingreportpdf.pdf
+<<<<<<< Updated upstream
 https://s3.documentcloud.org/documents/28035107/202311532_redactedclosingreportpdf.pdf > PDFs/939964/202311532_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035160/202200291_redactedclosingreportpdf.pdf > PDFs/939964/202200291_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035171/202103361_redactedclosingreportpdf.pdf > PDFs/946752/202103361_redactedclosingreportpdf.pdf
@@ -24746,3 +24747,17 @@ https://s3.documentcloud.org/documents/28035134/202306306_redactedclosingreportp
 https://s3.documentcloud.org/documents/28035159/202201365_redactedclosingreportpdf.pdf > PDFs/972219/202201365_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035297/201500892_redactedclosingreportpdf.pdf > PDFs/947032/201500892_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035242/201701495_redactedclosingreportpdf.pdf > PDFs/940849/201701495_redactedclosingreportpdf.pdf
+=======
+https://s3.documentcloud.org/documents/28035129/202301615_redactedclosingreportpdf.pdf > PDFs/966748/202301615_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035200/201907566_redactedclosingreportpdf.pdf > PDFs/960483/201907566_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065592/202409326_redactedclosingreportpdf.pdf > PDFs/972897/202409326_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035263/201610473_redactedclosingreportpdf.pdf > PDFs/958000/201610473_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035106/202407921_redactedclosingreportpdf.pdf > PDFs/965047/202407921_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035116/202306282_redactedclosingreportpdf.pdf > PDFs/970653/202306282_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035290/201412671_redactedclosingreportpdf.pdf > PDFs/934242/201412671_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28012904/vazquez_03302026pdf.pdf > PDFs/968865/vazquez_03302026pdf.pdf
+https://s3.documentcloud.org/documents/28065595/202406182_redactedclosingreportpdf.pdf > PDFs/966501/202406182_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/27965251/202406182_tax966501_redacteddepartureletterpdf.pdf > PDFs/966501/202406182_tax966501_redacteddepartureletterpdf.pdf
+https://s3.documentcloud.org/documents/28035210/201903998_redactedclosingreportpdf.pdf > PDFs/962159/201903998_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28018924/959287_02132026_2026011pdf.pdf > PDFs/959287/959287_02132026_2026011pdf.pdf
+>>>>>>> Stashed changes
