@@ -24689,3 +24689,13 @@ https://s3.documentcloud.org/documents/28035259/201609657_redactedclosingreportp
 https://s3.documentcloud.org/documents/28035206/202000350_redactedclosingreportpdf.pdf > PDFs/957458/202000350_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035102/202401639_redactedclosingreportpdf.pdf > PDFs/969091/202401639_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035133/202208026_redactedclosingreportpdf.pdf > PDFs/966611/202208026_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065590/202409369_redactedclosingreportpdf.pdf > PDFs/967422/202409369_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035124/202301978_redactedclosingreportpdf.pdf > PDFs/967422/202301978_redactedclosingreportpdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ix4QoyehCYFa2IiLFbStzg== > PDFs/930557/523284_2017_robert_dugan_v_robert_dugan_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=7xIYAhpXUaSlbAvMV5z9lg== > PDFs/968282/503536_2022_tucker_henrick_v_nypd_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=qEYmhhEvXx9xhKMzqavMUQ== > PDFs/960601/150028_2024_edward_steele_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28035119/202305176_redactedclosingreportpdf.pdf > PDFs/964688/202305176_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035236/201900971_redactedclosingreportpdf.pdf > PDFs/962389/201900971_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065588/202410768_redactedclosingreportpdf.pdf > PDFs/957496/202410768_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035197/201907433_redactedclosingreportpdf.pdf > PDFs/941071/201907433_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035266/201610537_redactedclosingreportpdf.pdf > PDFs/954743/201610537_redactedclosingreportpdf.pdf
