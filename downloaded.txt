@@ -24639,3 +24639,13 @@ https://s3.documentcloud.org/documents/28035255/201609998_redactedclosingreportp
 https://s3.documentcloud.org/documents/28012902/hallis_03312026pdf.pdf > PDFs/960633/hallis_03312026pdf.pdf
 https://s3.documentcloud.org/documents/28035186/201910619_redactedclosingreportpdf.pdf > PDFs/962443/201910619_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28035143/202204302_redactedclosingreportpdf.pdf > PDFs/963010/202204302_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035214/201908155_redactedclosingreportpdf.pdf > PDFs/937140/201908155_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035161/202106605_redactedclosingreportpdf.pdf > PDFs/937747/202106605_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035201/201905782_redactedclosingreportpdf.pdf > PDFs/950077/201905782_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035182/202001389_redactedclosingreportpdf.pdf > PDFs/961081/202001389_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035229/201900850_redactedclosingreportpdf.pdf > PDFs/960290/201900850_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035130/202300688_redactedclosingreportpdf.pdf > PDFs/967479/202300688_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035118/202306570_redactedclosingreportpdf.pdf > PDFs/968103/202306570_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/27965253/202410311_tax977117_redacteddepartureletterpdf.pdf > PDFs/977117/202410311_tax977117_redacteddepartureletterpdf.pdf
+https://s3.documentcloud.org/documents/28035120/202305059_redactedclosingreportpdf.pdf > PDFs/964614/202305059_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065587/202409832_redactedclosingreportpdf.pdf > PDFs/947373/202409832_redactedclosingreportpdf.pdf
