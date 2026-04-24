@@ -784,12 +784,10 @@ func extractFinalDocumentCloudURL(input string) string { // Converts a DocumentC
 } // Ends the DocumentCloud URL conversion helper.
 
 func main() { // Runs the CSV workflow first and the PDF workflow second.
-	/*
-		csvWorkflowError := downloadAndSplitCSVData() // Starts the CSV download and splitting workflow.
-		if csvWorkflowError != nil {                  // Stops the program when the CSV workflow fails during setup.
-			log.Fatalf("CSV workflow failed: %v\n", csvWorkflowError) // Exits with a clear CSV workflow error message.
-		} // Ends the CSV workflow error check.
-	*/
+	csvWorkflowError := downloadAndSplitCSVData() // Starts the CSV download and splitting workflow.
+	if csvWorkflowError != nil {                  // Stops the program when the CSV workflow fails during setup.
+		log.Fatalf("CSV workflow failed: %v\n", csvWorkflowError) // Exits with a clear CSV workflow error message.
+	} // Ends the CSV workflow error check.
 	pdfWorkflowError := downloadOfficerPDFDocuments() // Starts the PDF scraping and download workflow.
 	if pdfWorkflowError != nil {                      // Stops the program when the PDF workflow fails during setup.
 		log.Fatalf("[FATAL] PDF scraping and download workflow encountered a critical failure and cannot continue. Error details: %v", pdfWorkflowError) // Exits with a clear PDF workflow error message.
