@@ -25417,3 +25417,15 @@ https://s3.documentcloud.org/documents/28035123/202302805_redactedclosingreportp
 https://s3.documentcloud.org/documents/27922224/202409512_tax977119_redacteddepartureletterpdf.pdf > PDFs/977119/202409512_tax977119_redacteddepartureletterpdf.pdf
 https://s3.documentcloud.org/documents/27922223/202409512_tax978860_redacteddepartureletterpdf.pdf > PDFs/978860/202409512_tax978860_redacteddepartureletterpdf.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=lmQp6tZYzf6C3svjbUXPPw== > PDFs/943819/152254_2015_antonio_delarosa_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28072522/202207278-redactedclosingreport-redacted.pdf > PDFs/955410/202207278_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065860/201703019-redactedclosingreport-redacted.pdf > PDFs/951332/201703019_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066074/201600906-redactedclosingreport-redacted.pdf > PDFs/939253/201600906_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28035148/202202503_redactedclosingreportpdf.pdf > PDFs/962682/202202503_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035175/202004976_redactedclosingreportpdf.pdf > PDFs/962682/202004976_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065805/201708496-redactedclosingreport-redacted.pdf > PDFs/953282/201708496_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072410/201702392-redactedclosingreport-redacted.pdf > PDFs/936051/201702392_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072459/201900656-redactedclosingreport-redacted.pdf > PDFs/955203/201900656_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066830/201110647-redactedclosingreport-redacted.pdf > PDFs/946704/201110647_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072487/201908805-redactedclosingreport-redacted.pdf > PDFs/966002/201908805_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072398/201508309-redactedclosingreport-redacted.pdf > PDFs/948439/201508309_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066125/201801602-redactedclosingreport-redacted.pdf > PDFs/929696/201801602_redactedclosingreport_redacted.pdf
