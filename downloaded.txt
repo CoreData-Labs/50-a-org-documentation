@@ -25376,3 +25376,14 @@ https://s3.documentcloud.org/documents/28072298/201402272-redactedclosingreport-
 https://s3.documentcloud.org/documents/28066642/201000914-redactedclosingreport-redacted.pdf > PDFs/939856/201000914_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28072453/201809337-redactedclosingreport-redacted.pdf > PDFs/948593/201809337_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28066212/201803335-redactedclosingreport-redacted.pdf > PDFs/953149/201803335_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065969/202202995-redactedclosingreport-redacted.pdf > PDFs/944298/202202995_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066152/201409870-redactedclosingreport-redacted.pdf > PDFs/953638/201409870_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=vmr3CT7i75gtxJzD0fxvKg== > PDFs/966254/159108_2021_aqila_lodai_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28035164/202105147_redactedclosingreportpdf.pdf > PDFs/939882/202105147_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28066078/201809598-redactedclosingreport-redacted.pdf > PDFs/956391/201809598_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZcBrupD6XQdw5VHPj3EK_PLUS_A== > PDFs/963239/151201_2019_judith_rifkin_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fGg182jB_PLUS_X6vthIgwLelSg== > PDFs/959256/150248_2020_j_m_an_infant_by_h_v_j_m_an_infant_by_h_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=c6FCUHsDjLVNoB7kp9DKAg== > PDFs/945762/154425_2016_kardec_marte_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28035127/202301583_redactedclosingreportpdf.pdf > PDFs/961323/202301583_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035104/202400926_redactedclosingreportpdf.pdf > PDFs/957226/202400926_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28035237/201903626_redactedclosingreportpdf.pdf > PDFs/958656/201903626_redactedclosingreportpdf.pdf
