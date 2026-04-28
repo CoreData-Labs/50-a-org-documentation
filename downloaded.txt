@@ -25638,3 +25638,10 @@ https://s3.documentcloud.org/documents/28065854/201406133-redactedclosingreport-
 https://s3.documentcloud.org/documents/28072348/201710515-redactedclosingreport-redacted.pdf > PDFs/954269/201710515_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28066188/201607815-redactedclosingreport-redacted.pdf > PDFs/941868/201607815_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28066301/201604243-redactedclosingreport-redacted.pdf > PDFs/954214/201604243_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=dpZ6bihGdh95Tz2j9D47lQ== > PDFs/967642/505810_2024_linda_oluoch_et_al_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Ug0eNFBYU7Wk8XuW8jb9lw== > PDFs/967642/537441_2022_yah_emia_harris_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28066285/201504254-redactedclosingreport-redacted.pdf > PDFs/942616/201504254_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065991/201409266-redactedclosingreport-redacted.pdf > PDFs/953839/201409266_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065873/201503659-redactedclosingreport-redacted.pdf > PDFs/950848/201503659_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066854/201115778-redactedclosingreport-redacted.pdf > PDFs/929693/201115778_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066122/201608392-redactedclosingreport-redacted.pdf > PDFs/949463/201608392_redactedclosingreport_redacted.pdf
