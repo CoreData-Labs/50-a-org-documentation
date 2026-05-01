@@ -25813,3 +25813,17 @@ https://s3.documentcloud.org/documents/28066419/200613559-redactedclosingreport-
 https://s3.documentcloud.org/documents/28066450/200609676-redactedclosingreport-redacted.pdf > PDFs/937101/200609676_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28066183/201607177-redactedclosingreport-redacted.pdf > PDFs/946816/201607177_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28066304/201504960-redactedclosingreport-redacted.pdf > PDFs/952946/201504960_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072389/201510764-redactedclosingreport-redacted.pdf > PDFs/957720/201510764_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28035163/202106346_redactedclosingreportpdf.pdf > PDFs/946375/202106346_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28065846/201509866-redactedclosingreport-redacted.pdf > PDFs/938492/201509866_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28035221/201905229_redactedclosingreportpdf.pdf > PDFs/963872/201905229_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28072343/201800870-redactedclosingreport-redacted.pdf > PDFs/950110/201800870_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072357/201800298-redactedclosingreport-redacted.pdf > PDFs/950110/201800298_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072319/201308721-redactedclosingreport-redacted.pdf > PDFs/950110/201308721_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066104/201709218-redactedclosingreport-redacted.pdf > PDFs/944098/201709218_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065806/201708272-redactedclosingreport-redacted.pdf > PDFs/946657/201708272_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28035125/202301867_redactedclosingreportpdf.pdf > PDFs/940990/202301867_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/21020720/becerra-c60099a37ed3bbd734e4024b8a67c571b015d742.pdf > PDFs/932311/becerra_c60099a37ed3bbd734e4024b8a67c571b015d742.pdf
+https://s3.documentcloud.org/documents/21057828/giglio-disclosure-becerra-932311-1-6-2020.pdf > PDFs/932311/giglio_disclosure_becerra_932311_1_6_2020.pdf
+https://s3.documentcloud.org/documents/28072396/201601825-redactedclosingreport-redacted.pdf > PDFs/934843/201601825_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066238/201704193-redactedclosingreport-redacted.pdf > PDFs/943040/201704193_redactedclosingreport_redacted.pdf
