@@ -25880,3 +25880,10 @@ https://s3.documentcloud.org/documents/28066190/201605630-redactedclosingreport-
 https://s3.documentcloud.org/documents/28072345/201801483-redactedclosingreport-redacted.pdf > PDFs/919026/201801483_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28065800/201707948-redactedclosingreport-redacted.pdf > PDFs/955031/201707948_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28086159/santos_04242026pdf.pdf > PDFs/942515/santos_04242026pdf.pdf
+https://s3.documentcloud.org/documents/28072542/202107597-redactedclosingreport-redacted.pdf > PDFs/955585/202107597_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072053/201304556-redactedclosingreport-redacted.pdf > PDFs/938991/201304556_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066611/201003932-redactedclosingreport-redacted.pdf > PDFs/938991/201003932_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066573/200712000-redactedclosingreport-redacted.pdf > PDFs/938991/200712000_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066185/200205039-redactedclosingreport-redacted.pdf > PDFs/927983/200205039_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065988/202302368-redactedclosingreport-redacted.pdf > PDFs/969389/202302368_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28086158/rogers_04242026pdf.pdf > PDFs/972920/rogers_04242026pdf.pdf
