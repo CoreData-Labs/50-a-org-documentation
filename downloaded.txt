@@ -26010,3 +26010,7 @@ https://s3.documentcloud.org/documents/28382515/201705963-redactedclosingreport-
 https://s3.documentcloud.org/documents/28382470/201801826-redactedclosingreport-redacted.pdf > PDFs/946338/201801826_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/4922746/McLean-v-City-of-New-York-et-al.pdf > PDFs/949726/mclean_v_city_of_new_york_et_al.pdf
 https://s3.documentcloud.org/documents/4919537/Calixto-v-City-of-New-York-et-al.pdf > PDFs/945442/calixto_v_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/21020798/berardi-99c5efa6ab4f5240cb3d996d04e8c4dfb519a885.pdf > PDFs/939914/berardi_99c5efa6ab4f5240cb3d996d04e8c4dfb519a885.pdf
+https://s3.documentcloud.org/documents/28383032/201709256-redactedclosingreport-redacted.pdf > PDFs/958765/201709256_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/4924804/Classen-v-The-City-of-New-York-et-al.pdf > PDFs/948219/classen_v_the_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/28382316/201801928-redactedclosingreport-redacted.pdf > PDFs/947142/201801928_redactedclosingreport_redacted.pdf
