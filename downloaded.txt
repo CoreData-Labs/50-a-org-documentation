@@ -26064,3 +26064,13 @@ https://s3.documentcloud.org/documents/28140660/9254-bradygiglio-970621-marvin-j
 https://s3.documentcloud.org/documents/28137282/9252-ccrb-202400441.pdf > PDFs/969478/9252_ccrb_202400441.pdf
 https://s3.documentcloud.org/documents/4921588/Johnson-et-al-v-City-Of-New-York-et-al.pdf > PDFs/948009/johnson_et_al_v_city_of_new_york_et_al.pdf
 https://s3.documentcloud.org/documents/28226046/ustick_06042026pdf.pdf > PDFs/948517/ustick_06042026pdf.pdf
+https://s3.documentcloud.org/documents/28517026/970037_06172026_2026031pdf.pdf > PDFs/970037/970037_06172026_2026031pdf.pdf
+https://s3.documentcloud.org/documents/28382979/201411942-redactedclosingreport-redacted.pdf > PDFs/956037/201411942_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382493/201801406-redactedclosingreport-redacted.pdf > PDFs/958498/201801406_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382488/201701355-redactedclosingreport-redacted.pdf > PDFs/955784/201701355_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382530/201807943-redactedclosingreport-redacted.pdf > PDFs/941091/201807943_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/4919566/Velasquez-v-City-of-New-York-et-al.pdf > PDFs/941539/velasquez_v_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/28382508/201802758-redactedclosingreport-redacted.pdf > PDFs/959043/201802758_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28383029/201609163-redactedclosingreport-redacted.pdf > PDFs/954903/201609163_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382468/201802654-redactedclosingreport-redacted.pdf > PDFs/945861/201802654_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28383023/201603721-redactedclosingreport-redacted.pdf > PDFs/947504/201603721_redactedclosingreport_redacted.pdf
