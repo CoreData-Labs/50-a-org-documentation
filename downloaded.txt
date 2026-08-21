@@ -26014,3 +26014,6 @@ https://s3.documentcloud.org/documents/21020798/berardi-99c5efa6ab4f5240cb3d996d
 https://s3.documentcloud.org/documents/28383032/201709256-redactedclosingreport-redacted.pdf > PDFs/958765/201709256_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/4924804/Classen-v-The-City-of-New-York-et-al.pdf > PDFs/948219/classen_v_the_city_of_new_york_et_al.pdf
 https://s3.documentcloud.org/documents/28382316/201801928-redactedclosingreport-redacted.pdf > PDFs/947142/201801928_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382452/201802223-redactedclosingreport-redacted.pdf > PDFs/960928/201802223_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28510796/kambouris_07212026pdf.pdf > PDFs/961850/kambouris_07212026pdf.pdf
+https://s3.documentcloud.org/documents/28382268/201608431-redactedclosingreport-redacted.pdf > PDFs/955648/201608431_redactedclosingreport_redacted.pdf
