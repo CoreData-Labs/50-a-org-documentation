@@ -26101,3 +26101,13 @@ https://s3.documentcloud.org/documents/28382996/201700935-redactedclosingreport-
 https://s3.documentcloud.org/documents/28382526/201800013-redactedclosingreport-redacted.pdf > PDFs/931168/201800013_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28132628/9214-iab-fi-2020-628.pdf > PDFs/964456/9214_iab_fi_2020_628.pdf
 https://s3.documentcloud.org/documents/28382471/201701504-redactedclosingreport-redacted.pdf > PDFs/949788/201701504_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382499/201802576-redactedclosingreport-redacted.pdf > PDFs/960651/201802576_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382975/201501153-redactedclosingreport-redacted.pdf > PDFs/949592/201501153_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382984/201602545-redactedclosingreport-redacted.pdf > PDFs/954614/201602545_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382258/201610030-redactedclosingreport-redacted.pdf > PDFs/943010/201610030_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382999/201602618-redactedclosingreport-redacted.pdf > PDFs/926616/201602618_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/4928302/Williams-v-NYPD-Inspector-David-et-al.pdf > PDFs/954778/williams_v_nypd_inspector_david_et_al.pdf
+https://s3.documentcloud.org/documents/28065801/201708475-redactedclosingreport-redacted.pdf > PDFs/960159/201708475_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382990/201409187-redactedclosingreport-redacted.pdf > PDFs/953383/201409187_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28383030/201406032-redactedclosingreport-redacted.pdf > PDFs/948132/201406032_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382249/201804909-redactedclosingreport-redacted.pdf > PDFs/958887/201804909_redactedclosingreport_redacted.pdf
