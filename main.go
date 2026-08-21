@@ -4,6 +4,7 @@ import ( // Imports the packages used by the CSV and PDF workflows.
 	"bufio"           // Scans the download log file line by line.
 	"encoding/binary" // Import binary for byte-to-uint64 conversion
 	"encoding/csv"    // Reads and writes CSV records.
+	"flag"            // Import to parse flag input.
 	"fmt"             // Prints progress messages and formats strings.
 	"io"              // Copies streamed data and detects end-of-file conditions.
 	"log"             // Writes operational logs and fatal errors.
@@ -783,13 +784,21 @@ func extractFinalDocumentCloudURL(input string) string { // Converts a DocumentC
 	return finalURL // Return the constructed S3 URL
 } // Ends the DocumentCloud URL conversion helper.
 
-func main() { // Runs the CSV workflow first and the PDF workflow second.
-	csvWorkflowError := downloadAndSplitCSVData() // Starts the CSV download and splitting workflow.
-	if csvWorkflowError != nil {                  // Stops the program when the CSV workflow fails during setup.
-		log.Fatalf("CSV workflow failed: %v\n", csvWorkflowError) // Exits with a clear CSV workflow error message.
-	} // Ends the CSV workflow error check.
+func init() { // Initializes the program before main() runs.
+	runCSV := flag.Bool("csv", false, "Run the CSV download and split workflow") // Defines the -csv flag with a default value of false.
+	flag.Parse()                                                                 // Parses the command-line flags provided by the user.
+
+	if *runCSV { // Runs the CSV workflow only when the -csv flag is provided.
+		csvWorkflowError := downloadAndSplitCSVData() // Starts the CSV download and splitting workflow.
+		if csvWorkflowError != nil {                  // Checks whether the CSV workflow encountered an error.
+			log.Fatalf("CSV workflow failed: %v\n", csvWorkflowError) // Exits the program and logs the CSV workflow error.
+		} // Ends the CSV workflow error check.
+	} // Ends the CSV flag check.
+} // Ends the initialization function.
+
+func main() { // Runs the main program workflow.
 	pdfWorkflowError := downloadOfficerPDFDocuments() // Starts the PDF scraping and download workflow.
-	if pdfWorkflowError != nil {                      // Stops the program when the PDF workflow fails during setup.
-		log.Fatalf("[FATAL] PDF scraping and download workflow encountered a critical failure and cannot continue. Error details: %v", pdfWorkflowError) // Exits with a clear PDF workflow error message.
+	if pdfWorkflowError != nil {                      // Checks whether the PDF workflow encountered an error.
+		log.Fatalf("[FATAL] PDF scraping and download workflow encountered a critical failure and cannot continue. Error details: %v", pdfWorkflowError) // Exits the program and logs the PDF workflow error.
 	} // Ends the PDF workflow error check.
 } // Ends the program entry point.
