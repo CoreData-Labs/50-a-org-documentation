@@ -26119,3 +26119,13 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=KL6ed8Bq64uj97GWv_
 https://s3.documentcloud.org/documents/28382980/201408719-redactedclosingreport-redacted.pdf > PDFs/946892/201408719_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28383021/201602483-redactedclosingreport-redacted.pdf > PDFs/936799/201602483_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382986/201407923-redactedclosingreport-redacted.pdf > PDFs/945194/201407923_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28065959/201708850-redactedclosingreport-redacted.pdf > PDFs/943848/201708850_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28538096/9372-ccrb-202203084.pdf > PDFs/929740/9372_ccrb_202203084.pdf
+https://s3.documentcloud.org/documents/28382246/201411480-redactedclosingreport-redacted.pdf > PDFs/947556/201411480_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382240/201700772-redactedclosingreport-redacted.pdf > PDFs/939357/201700772_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=8QaFUcs1y0sY7VmqenI/bQ== > PDFs/955882/26569_2018e_alex_garcia_et_al_v_alex_garcia_et_al_complaint_2.pdf
+https://s3.documentcloud.org/documents/28066850/201108680-redactedclosingreport-redacted.pdf > PDFs/937368/201108680_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066576/200705189-redactedclosingreport-redacted.pdf > PDFs/937368/200705189_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382494/201701565-redactedclosingreport-redacted.pdf > PDFs/946634/201701565_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28066024/201600145-redactedclosingreport-redacted.pdf > PDFs/945802/201600145_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382261/201409626-redactedclosingreport-redacted.pdf > PDFs/943839/201409626_redactedclosingreport_redacted.pdf
