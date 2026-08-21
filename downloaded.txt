@@ -26093,3 +26093,11 @@ https://s3.documentcloud.org/documents/28435067/202405494_redactedclosingreport_
 https://s3.documentcloud.org/documents/28382977/201502710-redactedclosingreport-redacted.pdf > PDFs/951144/201502710_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382263/201702266-redactedclosingreport-redacted.pdf > PDFs/943969/201702266_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28383013/201609031-redactedclosingreport-redacted.pdf > PDFs/941207/201609031_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/21053593/stephens-955533-04-21-21.pdf > PDFs/955533/stephens_955533_04_21_21.pdf
+https://s3.documentcloud.org/documents/21058176/giglio_simpkins-952242-06-19-21.pdf > PDFs/952242/giglio_simpkins_952242_06_19_21.pdf
+https://s3.documentcloud.org/documents/21066764/stanford-955528-1-1-20.pdf > PDFs/955528/stanford_955528_1_1_20.pdf
+https://s3.documentcloud.org/documents/28382465/201808083-redactedclosingreport-redacted.pdf > PDFs/962273/201808083_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382996/201700935-redactedclosingreport-redacted.pdf > PDFs/949434/201700935_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382526/201800013-redactedclosingreport-redacted.pdf > PDFs/931168/201800013_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28132628/9214-iab-fi-2020-628.pdf > PDFs/964456/9214_iab_fi_2020_628.pdf
+https://s3.documentcloud.org/documents/28382471/201701504-redactedclosingreport-redacted.pdf > PDFs/949788/201701504_redactedclosingreport_redacted.pdf
