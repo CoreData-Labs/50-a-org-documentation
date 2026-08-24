@@ -26314,3 +26314,12 @@ https://s3.documentcloud.org/documents/4920727/Perry-v-City-of-New-York-et-al.pd
 https://s3.documentcloud.org/documents/21027438/paulino-bb7810ee563c5349a0896d6b554afc6082805be4.pdf > PDFs/949456/paulino_bb7810ee563c5349a0896d6b554afc6082805be4.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=8q99tELQa/CEnyxalG/iCQ== > PDFs/944769/518187_2020_jerome_brown_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=9bW0yEXl2kXSiwFmdqGDxw== > PDFs/945679/159994_2014_rosemark_palen_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=FtE85TRw3rtKY8tIA_PLUS_k7GA== > PDFs/970149/817745_2023e_terrence_moore_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=RurZCpvkn/GsNyP7Pyn0dw== > PDFs/956025/156419_2016_hector_hernandez_v_hector_hernandez_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Z7k7pXVPoriPmLnt5sHDjA== > PDFs/938826/502443_2021_jose_suriel_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382483/201705407-redactedclosingreport-redacted.pdf > PDFs/955399/201705407_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=CsH8ATkKfkfkNNowUL9JXQ== > PDFs/954593/23625_2015e_rodney_thomas_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=KZiBNxdm23nXiUC6KR2CyQ== > PDFs/943103/22137_2013e_taurian_waring_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fhsWepnBjQNOwKvk4ZYlhA== > PDFs/922530/802506_2021e_rafael_tatis_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=UrGj2DFSW_PLUS_y83Epe3addwg== > PDFs/949815/150924_2013_barry_lesane_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Lr08uMG_PLUS_P1iRNQg0aNGFRw== > PDFs/956164/154989_2022_alex_pagan_v_city_of_new_york_et_al_summons_complaint_1.pdf
