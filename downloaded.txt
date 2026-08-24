@@ -26189,3 +26189,14 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=BKsXoR/Tux1FOdfkpi
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=7RoNOjpnEkFHM8yT6H8W9A== > PDFs/954951/508866_2023_takora_faison_v_city_of_new_york_et_al_summons_complaint_1.pdf
 https://s3.documentcloud.org/documents/28382519/201801465-redactedclosingreport-redacted.pdf > PDFs/963031/201801465_redactedclosingreport_redacted.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=YI987xoEO2eXhgcTCLqw/A== > PDFs/966011/510489_2022_nicola_ross_et_al_v_the_city_of_new_york_et_al_complaint_2.pdf
+https://s3.documentcloud.org/documents/28510797/vega_07212026pdf.pdf > PDFs/976462/vega_07212026pdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=yWM8JuOKERxThMppWOCOYA== > PDFs/932143/508712_2022_floyd_patterson_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=eLbmNgJ4OY8qzS7Y01D8PA== > PDFs/972257/518933_2024_latisha_maldonado_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=_PLUS__PLUS_Id76sl_PLUS_j7u/FxRtvJSfQ== > PDFs/964733/517921_2022_maniyja_love_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382513/201802613-redactedclosingreport-redacted.pdf > PDFs/960248/201802613_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=x6PgH7AWS0RRF2iFYS0OUg== > PDFs/951008/509147_2022_saccur_parron_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=JPpgrljltMg8c4dYGmy8ig== > PDFs/966824/508088_2021_nedal_kifayeh_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3t58W_PLUS_N6OtPOGHgeea9djw== > PDFs/962212/508966_2022_keva_johnson_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382450/201802218-redactedclosingreport-redacted.pdf > PDFs/958175/201802218_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Z6Gy5n_PLUS_6iY7GiNmq5cNR8g== > PDFs/946752/500032_2021_tayquan_blakely_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=OGhcWR5KTkosnIjWjy_PLUS_UFA== > PDFs/971811/530444_2024_jacob_padilla_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
