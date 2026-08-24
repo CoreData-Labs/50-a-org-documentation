@@ -26161,3 +26161,11 @@ https://s3.documentcloud.org/documents/4419079/nypd-cases-396.pdf > PDFs/948483/
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=DVRPMV/KciBi6IavUSBt8A== > PDFs/959759/804415_2021e_roberto_ortiz_sosa_et_v_roberto_ortiz_sosa_et_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Eh/az8ldHmYkemZE1XOfzQ== > PDFs/963362/817952_2022e_charae_meachem_v_city_of_new_york_et_al_summons_complaint_1.pdf
 https://s3.documentcloud.org/documents/28072508/202006549-redactedclosingreport-redacted.pdf > PDFs/949424/202006549_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=tl6tTI52NFNPxzoJ23teVg== > PDFs/973340/819101_2022e_rafael_perez_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382460/201802373-redactedclosingreport-redacted.pdf > PDFs/958792/201802373_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382267/201410512-redactedclosingreport-redacted.pdf > PDFs/949201/201410512_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IZTRrGIXPu9HSeS2qU3VTw== > PDFs/959433/802673_2021e_quatrell_daniels_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382525/201705367-redactedclosingreport-redacted.pdf > PDFs/943312/201705367_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/4923149/Nunez-v-The-City-of-New-York-et-al.pdf > PDFs/947671/nunez_v_the_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/28382469/201706059-redactedclosingreport-redacted.pdf > PDFs/953953/201706059_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382500/201801612-redactedclosingreport-redacted.pdf > PDFs/963158/201801612_redactedclosingreport_redacted.pdf
