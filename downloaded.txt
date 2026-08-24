@@ -26312,3 +26312,4 @@ https://s3.documentcloud.org/documents/28383036/201608892-redactedclosingreport-
 https://s3.documentcloud.org/documents/28382997/201500434-redactedclosingreport-redacted.pdf > PDFs/932310/201500434_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/4920727/Perry-v-City-of-New-York-et-al.pdf > PDFs/950671/perry_v_city_of_new_york_et_al.pdf
 https://s3.documentcloud.org/documents/21027438/paulino-bb7810ee563c5349a0896d6b554afc6082805be4.pdf > PDFs/949456/paulino_bb7810ee563c5349a0896d6b554afc6082805be4.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=8q99tELQa/CEnyxalG/iCQ== > PDFs/944769/518187_2020_jerome_brown_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
