@@ -26180,3 +26180,12 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=WwxtADibfDGwkjF3Gi
 https://s3.documentcloud.org/documents/28435700/santos_07062026pdf.pdf > PDFs/949626/santos_07062026pdf.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=tbRvol0uT7shw0WXCRSelg== > PDFs/956747/518259_2017_richard_ortiz_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PIdzM8FKJrlR4KIfvkzI4w== > PDFs/932511/530937_2023_jose_mendoza_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382280/201409352-redactedclosingreport-redacted.pdf > PDFs/947893/201409352_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382253/201702812-redactedclosingreport-redacted.pdf > PDFs/953957/201702812_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382983/201412610-redactedclosingreport-redacted.pdf > PDFs/946000/201412610_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=HHyHjGdTf1EYYbKL7QBwcw== > PDFs/973677/526914_2024_michael_pratt_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382989/201608940-redactedclosingreport-redacted.pdf > PDFs/959153/201608940_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=BKsXoR/Tux1FOdfkpiimJw== > PDFs/963069/514328_2022_andrew_vesprey_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=7RoNOjpnEkFHM8yT6H8W9A== > PDFs/954951/508866_2023_takora_faison_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382519/201801465-redactedclosingreport-redacted.pdf > PDFs/963031/201801465_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=YI987xoEO2eXhgcTCLqw/A== > PDFs/966011/510489_2022_nicola_ross_et_al_v_the_city_of_new_york_et_al_complaint_2.pdf
