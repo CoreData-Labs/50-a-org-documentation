@@ -26200,3 +26200,16 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3t58W_PLUS_N6OtPOG
 https://s3.documentcloud.org/documents/28382450/201802218-redactedclosingreport-redacted.pdf > PDFs/958175/201802218_redactedclosingreport_redacted.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Z6Gy5n_PLUS_6iY7GiNmq5cNR8g== > PDFs/946752/500032_2021_tayquan_blakely_v_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=OGhcWR5KTkosnIjWjy_PLUS_UFA== > PDFs/971811/530444_2024_jacob_padilla_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382495/201705749-redactedclosingreport-redacted.pdf > PDFs/954654/201705749_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=y0H/XvVgj7gOPi2VKZwHug== > PDFs/954654/523859_2024_tristan_daly_fell_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28072492/202002488-redactedclosingreport-redacted.pdf > PDFs/936771/202002488_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28072460/202001540-redactedclosingreport-redacted.pdf > PDFs/936771/202001540_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/21024491/irvin-45ee3e657e8adb7296ebc35697cdb7a4610af885.pdf > PDFs/952881/irvin_45ee3e657e8adb7296ebc35697cdb7a4610af885.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=E8bTSaur4ErrAqXe2BGRVQ== > PDFs/963215/153302_2022_shady_bolton_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=4c_PLUS_083IdkpDOZ0gvl6oCGg== > PDFs/961785/531511_2023_john_williams_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=CcXVRSCMaA6XuFmL7jWXbg== > PDFs/933698/511965_2023_calvin_alexander_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=kWVLlDmQg91PnNo9M922rQ== > PDFs/959330/520625_2024_surinder_bhatty_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=pM9Hx3iqppJZlRNTj_PLUS_qO2g== > PDFs/957580/501876_2021_courtney_schloss_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382475/201705279-redactedclosingreport-redacted.pdf > PDFs/955176/201705279_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382273/201609882-redactedclosingreport-redacted.pdf > PDFs/950649/201609882_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28226041/960606_04082026_2026019pdf.pdf > PDFs/960606/960606_04082026_2026019pdf.pdf
