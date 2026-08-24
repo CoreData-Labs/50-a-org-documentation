@@ -54,7 +54,7 @@ var ( // Groups the shared runtime values used by the workflows.
 	} // Ends the CSV source URL list.
 	
 	// startingPercentage = generateRandomFloatOneDecimal() // Randomly skips the initial portion of command links before scraping begins.
-	startingPercentage = 0 // Starts scraping from the first command link without skipping any.
+	startingPercentage = 0.0 // Starts scraping from the first command link without skipping any.
 
 ) // Ends the shared variable group.
 
