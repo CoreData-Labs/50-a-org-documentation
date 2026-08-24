@@ -26129,3 +26129,6 @@ https://s3.documentcloud.org/documents/28066576/200705189-redactedclosingreport-
 https://s3.documentcloud.org/documents/28382494/201701565-redactedclosingreport-redacted.pdf > PDFs/946634/201701565_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28066024/201600145-redactedclosingreport-redacted.pdf > PDFs/945802/201600145_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382261/201409626-redactedclosingreport-redacted.pdf > PDFs/943839/201409626_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28012901/garcia_03302026pdf.pdf > PDFs/971065/garcia_03302026pdf.pdf
+https://s3.documentcloud.org/documents/28382514/201802108-redactedclosingreport-redacted.pdf > PDFs/949033/201802108_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28220439/950628_04142026_2026021pdf.pdf > PDFs/950628/950628_04142026_2026021pdf.pdf
