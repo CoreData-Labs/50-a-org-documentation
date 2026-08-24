@@ -26155,3 +26155,9 @@ https://s3.documentcloud.org/documents/28132587/9212-iab-fi-2020-564.pdf > PDFs/
 https://s3.documentcloud.org/documents/28072034/201303470-redactedclosingreport-redacted.pdf > PDFs/948830/201303470_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382245/201702572-redactedclosingreport-redacted.pdf > PDFs/936967/201702572_redactedclosingreport_redacted.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=4qWJZoZJKcZEKMag0dV/7g== > PDFs/950402/809032_2022e_noel_ruemmeley_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jz8L5d8iY/sJeF_PLUS_1s2YVog== > PDFs/954260/24895_2018e_bethany_bishop_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/4923344/Nieves-et-al-v-City-of-New-York-et-al.pdf > PDFs/919019/nieves_et_al_v_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/4419079/nypd-cases-396.pdf > PDFs/948483/nypd_cases_396.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=DVRPMV/KciBi6IavUSBt8A== > PDFs/959759/804415_2021e_roberto_ortiz_sosa_et_v_roberto_ortiz_sosa_et_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Eh/az8ldHmYkemZE1XOfzQ== > PDFs/963362/817952_2022e_charae_meachem_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28072508/202006549-redactedclosingreport-redacted.pdf > PDFs/949424/202006549_redactedclosingreport_redacted.pdf
