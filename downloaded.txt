@@ -26145,3 +26145,13 @@ https://s3.documentcloud.org/documents/28137284/9252-ccrb-202303147.pdf > PDFs/9
 https://s3.documentcloud.org/documents/28382492/201807727-redactedclosingreport-redacted.pdf > PDFs/957653/201807727_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382289/201805796-redactedclosingreport-redacted.pdf > PDFs/950491/201805796_redactedclosingreport_redacted.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=5GoQTnUqw5ZYPNVvHP/qgg== > PDFs/965903/820039_2023e_darwin_garcia_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28517027/943750_06232026_2026032pdf.pdf > PDFs/943750/943750_06232026_2026032pdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=h1hsudeRwY6Au7ZRXGvGzw==%20;%20https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rs2oB6xOtdLKD0KixaSoJg== > PDFs/960451/36147_2017e_roshid_gathers_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XKaaIp66W7gFnuWYXp9cMQ== > PDFs/941746/152722_2016_barbara_taylor_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=2/9f7AjiJj7VG0/md2pZWg== > PDFs/948939/800492_2022e_deuri_carambot_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZJL2J1UljyE1v_PLUS_WIZ0dLxA== > PDFs/960272/809506_2024e_johna_farrison_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=4VecUCUPGpP8UGy9v7bLmQ== > PDFs/960272/805208_2021e_aljustice_correa_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28132587/9212-iab-fi-2020-564.pdf > PDFs/957549/9212_iab_fi_2020_564.pdf
+https://s3.documentcloud.org/documents/28072034/201303470-redactedclosingreport-redacted.pdf > PDFs/948830/201303470_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382245/201702572-redactedclosingreport-redacted.pdf > PDFs/936967/201702572_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=4qWJZoZJKcZEKMag0dV/7g== > PDFs/950402/809032_2022e_noel_ruemmeley_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
