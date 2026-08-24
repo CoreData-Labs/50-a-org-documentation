@@ -26138,3 +26138,10 @@ https://s3.documentcloud.org/documents/28573566/cosolito_08202026pdf.pdf > PDFs/
 https://s3.documentcloud.org/documents/4922541/Fogel-v-City-Of-New-York.pdf > PDFs/929861/fogel_v_city_of_new_york.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=mpio3m9HZRa/QGs3hUebww== > PDFs/965869/805270_2021e_gladys_campusano_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LSg4aMPfsR9qlB2YyQ1YLg== > PDFs/974515/526215_2024_patrick_smith_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28167436/8492-iab-c-2018-176.pdf > PDFs/962446/8492_iab_c_2018_176.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rSV0rQyeT3QcMProHH1xDg== > PDFs/954826/24466_2015e_marty_hill_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=QbhRU8GAIJC7m9DA8_PLUS_Ihpg== > PDFs/959052/154158_2022_orlando_torres_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28137284/9252-ccrb-202303147.pdf > PDFs/946604/9252_ccrb_202303147.pdf
+https://s3.documentcloud.org/documents/28382492/201807727-redactedclosingreport-redacted.pdf > PDFs/957653/201807727_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382289/201805796-redactedclosingreport-redacted.pdf > PDFs/950491/201805796_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=5GoQTnUqw5ZYPNVvHP/qgg== > PDFs/965903/820039_2023e_darwin_garcia_v_city_of_new_york_et_al_summons_complaint_1.pdf
