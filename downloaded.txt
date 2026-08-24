@@ -26229,3 +26229,16 @@ https://s3.documentcloud.org/documents/28382254/201410256-redactedclosingreport-
 https://s3.documentcloud.org/documents/28382456/201802176-redactedclosingreport-redacted.pdf > PDFs/959361/201802176_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382976/201609069-redactedclosingreport-redacted.pdf > PDFs/949503/201609069_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28383018/201410827-redactedclosingreport-redacted.pdf > PDFs/951372/201410827_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382312/201704427-redactedclosingreport-redacted.pdf > PDFs/938757/201704427_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382487/201701319-redactedclosingreport-redacted.pdf > PDFs/949136/201701319_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28383007/201412674-redactedclosingreport-redacted.pdf > PDFs/948894/201412674_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/25999802/202301786_redactedclosingreportpdf.pdf > PDFs/966005/202301786_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28382966/201411998-redactedclosingreport-redacted.pdf > PDFs/949582/201411998_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PRzOxGrT7otaf8tAwScNmA== > PDFs/967870/710744_2024_charzette_bordley_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28490303/orilia_07102026pdf.pdf > PDFs/977310/orilia_07102026pdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=nrJQVGGAtfEvKZx2VI9a0Q== > PDFs/968165/723960_2022_keith_hernandez_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=S/aqxFKvQ/eXqydkN1xLsw== > PDFs/961627/513302_2023_frankie_smith_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28573567/davis_08202026pdf.pdf > PDFs/965032/davis_08202026pdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=lA8camu_PLUS_bs9Ghg/x1Zb2zw== > PDFs/952366/26078_2019e_saquan_gaddy_et_al_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28383025/201602553-redactedclosingreport-redacted.pdf > PDFs/947602/201602553_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IQIO5Me5570LVy4jpQeXyA== > PDFs/953583/161806_2014_troy_d_gerard_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
