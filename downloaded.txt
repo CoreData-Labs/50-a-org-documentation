@@ -26132,3 +26132,9 @@ https://s3.documentcloud.org/documents/28382261/201409626-redactedclosingreport-
 https://s3.documentcloud.org/documents/28012901/garcia_03302026pdf.pdf > PDFs/971065/garcia_03302026pdf.pdf
 https://s3.documentcloud.org/documents/28382514/201802108-redactedclosingreport-redacted.pdf > PDFs/949033/201802108_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28220439/950628_04142026_2026021pdf.pdf > PDFs/950628/950628_04142026_2026021pdf.pdf
+https://s3.documentcloud.org/documents/28066741/201104137-redactedclosingreport-redacted.pdf > PDFs/936886/201104137_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382981/201709261-redactedclosingreport-redacted.pdf > PDFs/961214/201709261_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28573566/cosolito_08202026pdf.pdf > PDFs/958441/cosolito_08202026pdf.pdf
+https://s3.documentcloud.org/documents/4922541/Fogel-v-City-Of-New-York.pdf > PDFs/929861/fogel_v_city_of_new_york.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=mpio3m9HZRa/QGs3hUebww== > PDFs/965869/805270_2021e_gladys_campusano_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LSg4aMPfsR9qlB2YyQ1YLg== > PDFs/974515/526215_2024_patrick_smith_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
