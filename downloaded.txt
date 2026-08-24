@@ -26213,3 +26213,12 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=pM9Hx3iqppJZlRNTj_
 https://s3.documentcloud.org/documents/28382475/201705279-redactedclosingreport-redacted.pdf > PDFs/955176/201705279_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28382273/201609882-redactedclosingreport-redacted.pdf > PDFs/950649/201609882_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/28226041/960606_04082026_2026019pdf.pdf > PDFs/960606/960606_04082026_2026019pdf.pdf
+https://s3.documentcloud.org/documents/23861697/giglio_garcia-963531-21-19060_redacted.pdf > PDFs/963531/giglio_garcia_963531_21_19060_redacted.pdf
+https://s3.documentcloud.org/documents/28435695/965915_05262026_2026028pdf.pdf > PDFs/965915/965915_05262026_2026028pdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=AzYFGIaPXR9Y1wWeGuZ9Sw== > PDFs/942099/150213_2016_felicia_dellaquila_v_felicia_dellaquila_complaint_amended_16.pdf
+https://s3.documentcloud.org/documents/23794651/202103268_redactedclosingreportpdf.pdf > PDFs/959954/202103268_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28382505/201603762-redactedclosingreport-redacted.pdf > PDFs/942096/201603762_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/22086203/seh_962357.pdf > PDFs/962357/seh_962357.pdf
+https://s3.documentcloud.org/documents/28140622/9251-cpi-967777-seturah-blease.pdf > PDFs/967777/9251_cpi_967777_seturah_blease.pdf
+https://s3.documentcloud.org/documents/28140623/9251-bradygiglio-967777-seturah-blease.pdf > PDFs/967777/9251_bradygiglio_967777_seturah_blease.pdf
+https://s3.documentcloud.org/documents/28382319/201410218-redactedclosingreport-redacted.pdf > PDFs/946698/201410218_redactedclosingreport_redacted.pdf
