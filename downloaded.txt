@@ -26303,3 +26303,12 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H0jVl7XjuyftO79JqF
 https://s3.documentcloud.org/documents/21025582/mazzaro-4ae37c8f18e088e28f4762226acf9a3f679c5521.pdf > PDFs/949288/mazzaro_4ae37c8f18e088e28f4762226acf9a3f679c5521.pdf
 https://s3.documentcloud.org/documents/21058696/quezada-946137-06-18-20.pdf > PDFs/946137/quezada_946137_06_18_20.pdf
 https://s3.documentcloud.org/documents/20528979/4085.pdf > PDFs/944632/4085.pdf
+https://s3.documentcloud.org/documents/21021056/brathwaite-a24df57f44fcb40db65c375f9006eb1d012d2963.pdf > PDFs/945524/brathwaite_a24df57f44fcb40db65c375f9006eb1d012d2963.pdf
+https://s3.documentcloud.org/documents/21066589/mckenna-960916-05-17-21.pdf > PDFs/960916/mckenna_960916_05_17_21.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=B2FtDqEZvpNpl/qq4P3sYA== > PDFs/963203/502534_2021_emily_duran_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28382457/201802249-redactedclosingreport-redacted.pdf > PDFs/951859/201802249_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28383037/201709476-redactedclosingreport-redacted.pdf > PDFs/958533/201709476_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28383036/201608892-redactedclosingreport-redacted.pdf > PDFs/940872/201608892_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/28382997/201500434-redactedclosingreport-redacted.pdf > PDFs/932310/201500434_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/4920727/Perry-v-City-of-New-York-et-al.pdf > PDFs/950671/perry_v_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/21027438/paulino-bb7810ee563c5349a0896d6b554afc6082805be4.pdf > PDFs/949456/paulino_bb7810ee563c5349a0896d6b554afc6082805be4.pdf
