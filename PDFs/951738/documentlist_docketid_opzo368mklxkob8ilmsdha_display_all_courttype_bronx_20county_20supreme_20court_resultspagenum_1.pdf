@@ -1,0 +1,1782 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Document List</title>
+
+
+  <link rel="stylesheet" type="text/css" href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/css/nyscefStyles_1.css?refreshcss=1" />
+  <link rel="stylesheet" type="text/css" href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/css/oca_Print.css" media="print" />
+  <style type="text/css" media="all">
+  <!--
+    body {background-color:#6F5E39}
+    .sr-only {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+    fieldset {border:none;margin:0;padding:0;min-width:0;}
+    .visually-hidden {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border: 0;}
+    #footer #fMenu.footerMenuLayout {display:inline-block;max-width:100%;vertical-align:top;}
+    #footer #fMenu.footerMenuLayout > fieldset,
+    #footer #fMenu.footerMenuLayout > span {display:inline-block;vertical-align:top;margin:0 2em 1em 0;}
+    #footer #fMenu.footerMenuLayout > fieldset {border:none;padding:0;}
+    #footer #fMenu.footerMenuLayout > fieldset.last,
+    #footer #fMenu.footerMenuLayout > span.last {margin-right:0;}
+      #menu {width: 155px}
+      #pageContent {border-left:155px solid #e1d7c6}
+      #UCS_Title {text-indent:7.2em}
+      #UCS_Application {text-indent:9em}
+
+  -->
+  </style>
+
+  <style media="all">
+    @media screen and (max-width:82em) {
+
+      /* page shell */
+      body                    { min-width:0 !important }
+      a                       { white-space:normal !important }
+
+      /* layout */
+      #container              { display:flex; flex-direction:column; padding-left:0; width:100% }
+      #menu                   { width:10em !important; padding-left:8em !important;}
+      #pageContent            { display:block; width:100% !important; float:none; border-left:none !important; margin-left:0; padding:0.5em 2%; padding-left:10em; box-sizing:border-box }
+
+      /* site header */
+      #UCS_Header             { height:auto; min-height:2.5em; box-sizing:border-box }
+      #UCS_Title              { width:auto }
+      #UCS_Application        { width:auto; text-indent:0; padding-left:1em; white-space:normal; overflow-wrap:break-word; box-sizing:border-box }
+
+      /* page content */
+      main                    { padding: 0.25em 0.5em }
+      textarea                { width:100% !important; max-width:100% !important; box-sizing:border-box }
+      select                  { max-width:100% !important; box-sizing:border-box }
+      input[type="text"]      { max-width:100% !important; box-sizing:border-box }
+      input[type="file"]      { max-width:100%; box-sizing:border-box }
+      div.DocumentBlock       { width:96% !important; box-sizing:border-box }
+      div.tabBody             { width:auto !important; max-width:100% !important; box-sizing:border-box }
+      div.DataEntry_InnerBox  { max-width:100% !important; box-sizing:border-box }
+      /* div.DataEntry_InnerBox span input { width: 95%; } */
+      div.MessageBox_Blue     { max-width:100% !important; box-sizing:border-box }
+      div.MsgBox_Yellow       { max-width:100% !important; box-sizing:border-box }
+      div.MsgBox_Yellow p     { width:auto !important; max-width:100% !important }
+      span.MsgBox_Message     { max-width:100% !important; box-sizing:border-box }
+      p.desc                  { width:auto !important; max-width:100% !important }
+      p.Requirements          { width:auto !important; max-width:100% !important }
+      div.DataEntry_InnerBox p.Requirements           { width:auto !important; max-width:100% !important }
+      div.DataEntry_InnerBox div.MessageBox_Blue p.Requirements { width:auto !important; max-width:100% !important }
+      .MsgBox_PDF p           {padding-left:4.5em;padding-bottom:0;width: auto !important;font-size:.7em;}
+
+      /* tables — allow horizontal scroll instead of overflowing the page */
+      table.NewSearchResults  { min-width:0 !important; max-width:90% !important; overflow-x:auto; box-sizing:border-box }
+      table.dataList          { white-space:normal; overflow-x:auto; display:block; }
+
+      /* MsgBox_Lock reflow — prevent background-image overlap and text clipping */
+      div.MsgBox_Lock         { background-size:1.8em auto !important; background-position:0.5em 0.6em !important; padding-left:3em !important; box-sizing:border-box; width:auto !important; max-width:100% }
+      div.MsgBox_Lock h2      { margin-left:0 !important; margin-top:0 !important }
+      div.MsgBox_Lock span.DataEntry_Row { height:auto !important; width:auto !important; max-width:100%; padding-left:0 !important; line-height:1.5em }
+
+      /* MsgBox_Alert reflow — prevent background-image overlap */
+      div.MsgBox_Alert        { margin-right:0; box-sizing:border-box; background-size:1.5em auto !important; background-position:0.5em 0.5em !important; padding-left:3em !important; max-width:100% }
+      div.MsgBox_Alert .heading,
+      div.MsgBox_Alert .message { padding-left:0 !important }
+
+      div.MsgBox_Instruction        { margin-right:0; box-sizing:border-box; background-size:1.5em auto !important; background-position:0.5em 0.5em !important; padding-left:3em !important; max-width:100% }
+      div.MsgBox_Instruction .heading,
+      div.MsgBox_Instruction .message { padding-left:0 !important }
+
+      /* MsgBox_Requirement reflow */
+      .MsgBox_Requirement                 { background-size:1.5em auto !important; background-position:0.5em 0.5em !important; padding-left:3em !important; margin-left:0 !important; box-sizing:border-box; max-width:100% }
+      .MsgBox_Requirement .MsgBox_Message { padding-left:0 !important; max-width:100%; }
+
+      /* fieldsets */
+      fieldset {min-width:0 !important;}
+
+      /* Left menu */
+      div.pageWithLeftMenu { width:auto; text-indent:0; white-space:normal; overflow-wrap:break-word; box-sizing:border-box }
+
+      /* filing-step breadcrumbs */
+      #filingSteps            { display:flex; align-items:flex-start; width:100%; background-size:2.5em auto; background-position:left 0.3em }
+      #filingSteps .container { flex:1; min-width:0; margin:0.5em 0 0.45em 3em }
+      #filingList             { display:flex; flex-wrap:wrap; padding-bottom:10px }
+      #filingList li.active   { background-size:14px auto; background-position:center bottom 2px }
+
+      /* wizard buttons */
+      span.wizardButtons      { display:flex; flex-wrap:wrap; justify-content:center; gap:0.5em }
+      span.wizardButtons input.yellow { float:none; margin-right:0 }
+
+      /* footer */
+      #fMenu span             { width:auto; display:block; margin-bottom:0.5em }
+    }
+
+    @media screen and (max-width:30em) {
+      table.NewSearchResults {
+        min-width: 0 !important;
+        max-width: 90% !important;
+        overflow-x: auto !important;
+        box-sizing: border-box !important;
+        /* display:block is applied via JS only when table width > 60px */
+      }
+    }
+
+  </style>
+
+  <script>
+    (function () {
+      function reflowTables() {
+        var isNarrow = window.matchMedia('(max-width:30em)').matches;
+        var tables = document.querySelectorAll('table.NewSearchResults');
+        for (var i = 0; i < tables.length; i++) {
+          if (isNarrow && tables[i].scrollWidth > 60) {
+            tables[i].style.display = 'block';
+          } else {
+            tables[i].style.display = '';
+          }
+        }
+      }
+      window.addEventListener('resize', reflowTables);
+      window.addEventListener('load', reflowTables);
+    })();
+  </script>
+
+  <script type="text/javascript" src="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/javascript/DisableSubmitButton.js"></script>
+  <script type="text/javascript" src="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/javascript/InitialFiling.js"></script>
+  <script type="text/javascript" src="javascript/nyscef/FilingHeaderProgressBar.js"></script>
+
+    <script type="text/javascript" src="javascript/nyscef/calendar.js"></script>
+    <script type="text/javascript" src="javascript/nyscef/calendar-en.js"></script>
+    <script type="text/javascript" src="javascript/nyscef/calendar-setup.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="common/css/calendar.css" title="win2k-cold-1" />
+    <script src="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/javascript/float-panel.js"></script>
+    <style type="text/css" media="all">
+      #backtop {position:fixed;left:auto;right:20px;top:auto;bottom:20px;outline:none;overflow:hidden;color:#fff;
+      text-align:center;background-color:rgba(49,79,96,0.84);height:40px;width:40px;line-height:40px;font-size:14px;
+      border-radius:2px;cursor:pointer;transition:all 0.3s linear;z-index:999999;opacity:1;display:none}
+      #backtop:hover {background-color:#27CFC3}
+      #backtop.mcOut {opacity:0}
+    </style>
+  <script type="text/javascript">
+  <!--
+    if(navigator.userAgent.toLowerCase().indexOf('chrome') > 0) {
+      document.write('<link rel="stylesheet" type="text/css" href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/css/NYSCEF_Chrome.css" />');
+    }
+    if(navigator.userAgent.toLowerCase().indexOf('edge') > 0) {
+      document.write('<link rel="stylesheet" type="text/css" href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/css/NYSCEF_IE_9.css" />');
+    }
+  -->
+  </script>
+  <!--[if IE 8.0]>
+    <link rel="stylesheet" type="text/css" href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/css/NYSCEF_IE_8.css" />
+  <![endif]-->
+  <!--[if IE 9.0]>
+    <link rel="stylesheet" type="text/css" href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/css/NYSCEF_IE_9.css" />
+  <![endif]-->
+
+</head>
+<body>
+
+  <header>
+    <div id="UCS_Header">
+      <div id="UCS_AccessibilityLinks">
+        Skip To: <a href="#content" title="skip to content">Content</a>
+        <a href="#nav" title="skip to navigation">Navigation</a>
+        <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/accessibility.htm" title="skip to accessibility" target="_blank" aria-label="Accessibility: opens page in a new tab">Accessibility</a>
+      </div>
+      <a href="http://www.nycourts.gov" id="UCS_Title" target="_blank" aria-label="New York State Unified Court System: opens page in a new tab">New York State Unified Court System</a>
+    </div>
+    <div id="UCS_Application">
+        <a href="HomePage" id="UCS_ApplicationName"><abbr title="New York State Courts Electronic Filing">NYSCEF</abbr> -</a>
+        <a href="SupremeHome" id="UCS_SubApplicationName">New York State Courts Electronic Filing</a>
+        <span class="teal">
+          (Live System)
+      </span>
+    </div>
+  </header>
+  <div id="container" class="pageWithLeftMenu">
+  <button class="menuBurger" onclick="toggleMenu()">Open Menu &#x2630;</button>
+
+  <style media="all">
+    /* Hide burger at default zoom */
+    button.menuBurger {
+      display: none;
+      width: 8em;
+      margin: 0.25em;
+    }
+
+    /* Hide menu and display burger ~200% zoom */
+    @media screen and (max-width: 60em) {
+      #menu {
+        display: block;
+        padding-left: 0;
+        transform: translateX(-100%);
+      }
+      #pageContent { padding-left: 0 }
+      button.menuBurger { display: block }
+
+      /* Open menu from the left */
+      #menu.menu-open { transform: translateX(0) }
+      #pageContent.menu-open { padding-left: var(--menu-width, 10em) }
+      button.menuBurger.menu-open { margin-left: calc(var(--menu-width, 10em) + 0.25em) }
+
+      /* Transition animations */
+      #menu.transition-animation { transition: transform 0.2s ease }
+      #pageContent.transition-animation { transition: padding-left 0.2s ease }
+      button.menuBurger.transition-animation { transition: margin-left 0.2s ease }
+    }
+
+    /* Vertical menu ~400% zoom */
+    @media screen and (max-width: 30em) {
+      #menu {
+        display: none;
+        width: 100% !important;
+      }
+      #pageContent { padding-top: 0 }
+
+      /* Open menu from the top */
+      #menu.menu-open {
+        display: block;
+        margin-top: 1.9em;
+      }
+      #pageContent.menu-open {
+        padding-left: 0;
+        padding-top: var(--menu-height, 30em);
+        margin-left: 0;
+      }
+      button.menuBurger.menu-open { margin-left: 0.25em }
+
+      /* Disable transition animations :( */
+      #menu.transition-animation { transition: none }
+      #pageContent.transition-animation { transition: none }
+      button.menuBurger.transition-animation { transition: none }
+    }
+  </style>
+
+  <script>
+    // Trigger on page load to ensure all elements exist
+    document.addEventListener("DOMContentLoaded", () => {
+      // Cache elements as const so they only get queried once
+      const menu = document.getElementById("menu");
+      const pageContent = document.getElementById("pageContent");
+      const burgerButton = document.querySelector("button.menuBurger")
+      const elements = [ menu, pageContent, burgerButton ];
+
+      // Store menu width as a global CSS variable and keep it in sync
+      // This will be used to set padding for menu opening from left
+      const widthObserver = new ResizeObserver((entries) => {
+        for (let entry of entries) {
+          document.documentElement.style.setProperty(
+            "--" + entry.target.id + "-width",
+            entry.contentRect.width + "px"
+          );
+        }
+      });
+      widthObserver.observe(menu);
+
+      // Store menu height as a global CSS variable and keep it in sync
+      // This will be used to set padding for menu opening from top
+      const heightObserver = new ResizeObserver((entries) => {
+        for (let entry of entries) {
+          document.documentElement.style.setProperty(
+            "--" + entry.target.id + "-height",
+            entry.contentRect.height + "px"
+          );
+        }
+      });
+      heightObserver.observe(menu);
+
+      // Make menu unfocusable if initial screen size is small enough to trigger hiding the menu
+      if (window.matchMedia("(max-width: 60em)").matches) {
+        menu.inert = true;
+      }
+
+      // Adjust menu focusability depending on viewport size/menu visibility
+      window.matchMedia("(max-width: 60em)").addEventListener("change", (e) => {
+        const menu = document.getElementById("menu");
+        if (e.matches && !menu.classList.contains("menu-open")) {
+          // Small viewport w/ hidden menu: menu not focusable
+          menu.inert = true;
+        } else {
+          // Larger viewport or menu open: menu is focusable
+          menu.inert = false;
+        }
+      })
+
+      // Callback function to open/close menu
+      window.toggleMenu = () => {
+        // Add transition animation and listener to remove transition once it finishes
+        // EventListener cleans itself up after firing once
+        elements.forEach(element => {
+          element.classList.add("transition-animation");
+          element.addEventListener("transitionend", () => element.classList.remove("transition-animation"), { once: true });
+        });
+
+        if (menu.classList.contains("menu-open")) {
+          // Close menu
+          elements.forEach(element => element.classList.remove("menu-open"));
+          burgerButton.textContent = "Open Menu \u2630"
+          menu.inert = true; // Menu unfocusable when closed
+        } else {
+          // Open menu
+          elements.forEach(element => element.classList.add("menu-open"));
+          burgerButton.textContent = "Close Menu \u2715"
+          menu.inert = false; // Menu focusable when opened
+        }
+      }
+    });
+  </script>
+
+      <div id="menu">
+        <nav role="navigation" aria-label="Primary">
+          <ul>
+            <li><a class="home" href="HomePage" name="nav"><span style="color:black;"><strong>Home</strong><br />NYSCEF</span></a></li>
+            <li><a class="home" href="UnRepresentedHome"><span style="color:#5A5F68"><strong>Home</strong><br />Unrepresented Litigants</span></a></li>
+          </ul>
+          <fieldset>
+            <legend class="visually-hidden">Account</legend>
+            <span class="menuHeader">Account</span>
+            <ul>
+              <li><a href="CreateAccount">Create an Account</a></li>
+              <li><a href="Login">Login</a></li>
+              <li><a href="CaseSearch">Search as Guest</a></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend class="visually-hidden">Resources</legend>
+            <span class="menuHeader">Resources</span>
+            <ul>
+              <li><a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/forms.htm" target="_blank" aria-label="Forms: opens page in a new tab">Forms</a></li>
+              <li><a href="AuthorizedCaseType" target="_blank" aria-label="Authorized Courts: opens page in a new tab">Authorized Courts</a></li>
+              <li><a href="AvailableDocumentTypes" target="_blank" aria-label="Available Documents: opens page in a new tab">Available Documents</a></li>
+              <li><a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/legislation.htm" target="_blank" aria-label="Rules and Legislation: opens page in a new tab">Rules &amp; Legislation</a></li>
+              <li><a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/protocols.htm" target="_blank" aria-label="Protocols: opens page in a new tab">Protocols</a></li>
+            </ul>
+          </fieldset>
+        </nav>
+      </div>
+      <div id="pageContent">
+        <main>
+
+
+<style type="text/css" media="all">
+  <!--
+    .hidden {display:none}
+    .MsgBox_Warning {margin-bottom:1em}
+    .returnLink {font-size:.8em;margin:.5em 0 1.5em 0;display:block;color:#867250;font-style:italic}
+    span.redItalic {font-size:1em}
+    span.yellow {color:#89601A;font-style:italic}
+    img.dateBox {width:1.5em;vertical-align:middle}
+
+    #linkText {color:#808080;cursor:pointer}
+    #tabs {margin-top:0}
+    select {width:20em;margin-bottom:.5em;padding-bottom:.2em}
+    input[type="text"] {padding-bottom:.2em}
+
+    div.tabBody div.MessageBox_RightText {padding-top:.2em;padding-bottom:0em}
+    div.tabBody div.DataEntry_InnerBox {padding-left:0em;padding-bottom:.75em}
+    div.tabBody h2 {font-size:.75em}
+
+    div.tableHeading {text-align:left;margin-top:.5em}
+    div.tableHeading select {width:10em;margin-bottom:0}
+    div.tableHeading span.pageNumbersInCaption {width:50%;margin-right:0;font-size:.8em;padding-top:.25em}
+    div.tableHeading span.tableSort {width:50%;margin-bottom:.25em}
+
+    table.NewSearchResults tr td, table.NewSearchResults tr td.changeColor {padding:.5em 0 .5em .35em;line-height:1.4em}
+    table.NewSearchResults tr th {padding:.5em 0 .35em .35em}
+
+  @media screen and (max-width: 45em) {
+    .headingContainer {display: flex !important;flex-direction: column !important;flex-wrap: wrap !important;}
+    .headingContainer .PageHeading { order: 1; }
+    .headingContainer .TabsRightText {order: 2;margin-bottom: 0 !important;}
+    a.helpLink {display: inline-flex !important;gap: .5rem !important;width: auto !important;}
+    a.helpLink::before {content: "" !important;display: inline-block !important;width: 1.5em !important;height: 1.5em !important;background-image: url(../images/questionMark.png) !important;background-repeat: no-repeat !important;background-size: contain !important;background-position: center !important;flex: 0 0 auto !important;}
+    .CaseSummary { max-width: 100%; overflow-wrap: break-word; word-wrap: break-word; box-sizing: border-box;}
+    .CaseSummary span.row,
+    .CaseSummary span.row > span { width:auto !important; max-width: 100% !important; display: block;}
+  }
+  -->
+</style>
+
+<script type="text/javascript" src="common/javascript/browser_detect.js"></script>
+<script type="text/javascript" src="common/javascript/common.js"></script>
+<script type="text/javascript" src="common/javascript/xp_progress.js"></script>
+<script type="text/javascript">addStatusBar(null, 'Request in progress...');</script>
+
+<form name="form" id="form" method="post" onSubmit="switchFormDisplay('showForm',null,'showProgress')">
+
+	<span class="returnLink"><< Return to <a href="CaseSearchResults?PageNum=1"><b>Search Results</b></a></span>
+
+  <div class="headingContainer">
+    <div class="TabsRightText" style="margin-bottom:-3.25em;">
+      <a href="https://iappscontent.courts.state.ny.us/NYSCEF/live/help/efileDocumentList.html" class="helpLink" target="_blank"
+         aria-label="help, page opens in a new tab">Help</a>
+    </div>
+    <h1 class="PageHeading">
+      <a class="skipTo" id="content">817221/2021E</a> - <span class="PageHeadingDesc">Bronx County Supreme Court</span>
+    </h1>
+  </div>
+
+
+
+  <div class="CaseSummary">
+    <span class="row">
+      <span style="vertical-align:top">Short Caption:&nbsp;</span>
+      <span style="width:59em;font-weight:bold"><span class="captionText">RAMONE DICKENSON et al v. CITY OF NEW YORK et al</span></span>
+    </span>
+    <span class="row"><span>Case Type:&nbsp;<strong>Torts - Other (FALSE ARREST)</strong></span></span><br />
+		<span class="row"><span>Case Status:&nbsp;<strong>Disposed</strong></span></span><br />
+    <span class="row"><span>eFiling Status:&nbsp;    <strong><a title="One or more parties have not recorded their participation in e-filing. E-filing parties must serve documents on non-participating parties in hard copy and e-file proof of such service [see Uniform Rule &sect; 202.5-b(b)(2) and 202.5-bb(e)(5)]." style="cursor:help" style="pointer-events:none;">Partial Participation Recorded</a></strong>
+</span></span><br/>
+      <span class="row"><span>Assigned Judge:&nbsp;<span style="float:none;font-weight:bold">Mitchell J. Danziger</span></span></span>
+  </div>
+
+
+<div id="tabs">
+  <ul>
+    <li id="current"><a href="SearchDocuments?docketId=OpZo368MKlXkoB8ilmsdhA&#61;&#61;"><span>Document List</span></a></li>
+  			<li><a href="CaseDetails?docketId=OpZo368MKlXkoB8ilmsdhA&#61;&#61;"><span>Case Detail</span></a></li>
+	</ul>
+</div>
+<div class="tabBody" style="padding-top:0">
+
+
+    <div class="Document_Row" style="margin:0 1em 3em 0;padding-top:0">
+
+      <span class="printLink">
+        <a href="DocumentList?docketId=OpZo368MKlXkoB8ilmsdhA&#61;&#61;&amp;display=all&amp;pdf=y&amp;flst=y&amp;narrow=" target="_blank" aria-label="Print Document List, page opens in new tab">
+            Print Document List
+        </a>
+      </span>
+    </div>
+
+		<h2 id="narrowByTxt">Narrow By Options</h2>
+    <p id="narrowDesc" class="visually-hidden">Select through the options to narrow the list of documents</p>
+		<div class="DataEntry_InnerBox">
+
+  		<div class="Document_Row">
+    		<span style="width:8.6em">
+    		  <label for="selDocumentType">Document Type:</label>
+    		</span>
+        <select name="selDocumentType" id="selDocumentType" aria-describedby="narrowDesc">
+    					<option value="-1" selected="SELECTED"></option>
+    					<option value="1387" >AFFIDAVIT OR AFFIRMATION IN OPPOSITION TO CROSS-MOTION AND IN FURTHER SUPPORT OF MOTION</option>
+    					<option value="1388" >AFFIDAVIT OR AFFIRMATION IN OPPOSITION TO MOTION AND IN SUPPORT OF CROSS-MOTION</option>
+    					<option value="1012" >AFFIDAVIT OR AFFIRMATION IN SUPPORT OF MOTION</option>
+    					<option value="1014" >AFFIRMATION OF GOOD FAITH</option>
+    					<option value="1015" >AFFIRMATION/AFFIDAVIT OF SERVICE</option>
+    					<option value="1027" >ANSWER</option>
+    					<option value="1016" >ANSWER (AMENDED)</option>
+    					<option value="1126" >DECISION + ORDER ON MOTION</option>
+    					<option value="1095" >EXHIBIT(S)</option>
+    					<option value="1132" >NO FEE AUTHORIZATION (LETTER/ORDER/AFFIRMATION)</option>
+    					<option value="1147" >NOTICE OF CROSS-MOTION</option>
+    					<option value="1153" >NOTICE OF ENTRY</option>
+    					<option value="1157" >NOTICE OF MOTION</option>
+    					<option value="1049" >ORDER - CASE SCHEDULING</option>
+    					<option value="1057" >ORDER - COMPLIANCE CONFERENCE</option>
+    					<option value="6784" >ORDER - STRIKE</option>
+    					<option value="1226" >PRELIMINARY CONFERENCE REQUEST</option>
+    					<option value="1237" >RJI -RE: REQUEST FOR PRELIMINARY CONFERENCE</option>
+    					<option value="1253" >STIPULATION - ADJOURNMENT OF MOTION</option>
+    					<option value="1213" >STIPULATION - OTHER - ( REQUEST TO SO ORDER )</option>
+    					<option value="1260" >SUMMONS + COMPLAINT</option>
+    		</select>
+
+        <span style="width:5.8em;margin-left:1.5em">
+          <label for="selFiler">Filed By:</label>
+        </span>
+        <select name="selFiler" id="selFiler" style="width:19em" aria-describedby="narrowDesc">
+    					<option value="-1" selected="SELECTED"></option>
+    					<option value="2051351" >COPPERMAN, JOSHUA NEIL</option>
+    					<option value="3130616" >Counsel, Corporation</option>
+    					<option value="14275814" >Espinal, Neil</option>
+    					<option value="7806737" >Greene, Marilyn</option>
+    					<option value="7530974" >Laplante, Shayna</option>
+    					<option value="3992737" >Rollins, Bernell</option>
+    					<option value="7409015" >STEINBERG, RUSSELL ANDREW</option>
+    					<option value="842163" >WOLLERSTEIN, NEIL DAVID</option>
+    		</select>
+    		<input type="hidden" name="docketId" value="OpZo368MKlXkoB8ilmsdhA&#61;&#61;" id="row">
+    		<input type="hidden" name="narrow" value="true" id="narrow">
+      </div>
+
+        <div class="Document_Row" style="padding-top:0">
+          <span style="width:8.6em">
+            <label for="selMotionNum">Motion Info:</label>
+          </span>
+          <select name="selMotionNum" id="selMotionNum" aria-describedby="narrowDesc" >
+      						<option value="zo0QLhUqMsw0vxcnE5cCAQ==" selected></option>
+      						<option value="8BkpDacXOTtN5GPkIf1U4g==" >1 - DISCOVERY - Wollerstein, N.</option>
+      						<option value="9UxQ9yxqoh0k7avZpnom1g==" >2 - STRIKE PLEADINGS - Wollerstein, N.</option>
+    		  </select>
+    			<span style="width:5.8em;margin-left:1.5em">
+    			  <label for="txtFilingDateFrom">Filed Date:</label>
+    			</span>
+          <input type="text" name="txtFilingDateFrom" id="txtFilingDateFrom" aria-describedby="narrowDesc" value="" size="6" maxlength="10" />
+    			<img src="https://iappscontent.courts.state.ny.us/NYSCEF/live/images/NYSCEF/calendar.png" id="btnFromDate" title="Date Selector" alt="calendar" class="dateBox" />
+    			<script type="text/javascript">
+    				<!--
+    				Calendar.setup({inputField:"txtFilingDateFrom",ifFormat:"%m/%d/%Y",button:"btnFromDate",align:"Tr",singleClick:true,electric:false});
+    				// -->
+    			</script>
+    			&nbsp; <label for="txtFilingDateTo">thru</label>&nbsp;
+          <input type="text" name="txtFilingDateTo" id="txtFilingDateTo" aria-describedby="narrowDesc" value="" size="6" maxlength="10" />
+          <img src="https://iappscontent.courts.state.ny.us/NYSCEF/live/images/NYSCEF/calendar.png" id="btnToDate" title="Date Selector" alt="calendar" class="dateBox" />
+    			<script type="text/javascript">
+    					<!--
+    					Calendar.setup({inputField:"txtFilingDateTo",ifFormat:"%m/%d/%Y",button:"btnToDate",align:"Tr",singleClick:true,electric:false});
+    					// -->
+    			</script>
+        </div>
+        <div class="Document_Row" style="padding-top:0">
+    		  <span style="width:8.6em"><label for="txtDocNum">Document #:</label></span>
+          <input type="text" name="txtDocNum" id="txtDocNum" maxlength="10" size="5" aria-label="Document Number" aria-describedby="narrowDesc" value="" />
+        </div>
+
+      <div class="Document_Row">
+        <input value="Narrow Document List" name="btnNarrow" type="submit" style="font-size:.9em" />&nbsp;
+        <input value= "Clear" name="btnClear" type="submit" style="font-size:.9em" />&nbsp;
+
+          <img src="https://iappscontent.courts.state.ny.us/NYSCEF/live/images/nyscef/folder.png" width="16" style="vertical-align:middle" alt="folder"></img>
+      			<a href="DocumentList?docketId=OpZo368MKlXkoB8ilmsdhA&#61;&#61;&amp;display=motion" style="font-size:1em" title="Any motion-related documents will not show on the list but will be accessible by clicking on the motion folder for each main motion">Show Motion Folders ONLY</a>
+	    </div>
+    </div>
+
+		<div class="tableHeading">
+			<span class="tableSort" style="margin-bottom:.25em"><label for="selDocumentSortBy">Sort By:</label>
+        <span id="sortDesc" class="visually-hidden">Select how to sort through the list of documents</span>
+				<select name="selDocumentSortBy" id="selDocumentSortBy" aria-describedby="sortDesc" style="width:10em;padding-bottom:0">
+						<option value="Type" >
+  						  Document Type
+						</option>
+						<option value="Document Number" selected="SELECTED">
+  						  Document #
+						</option>
+						<option value="Status" >
+  						  Status
+						</option>
+						<option value="Receive Date" >
+  						  Receive Date
+						</option>
+						<option value="Filing User" >
+  						  Filing User
+						</option>
+				</select>
+				<input value=" Sort " style="font-size:1em" name="btnSort" type="submit"/>
+			</span>
+		</div>
+
+    <table summary="all documents for case" class="NewSearchResults" style="margin-top:.25em; display: block;">
+    <thead>
+    <tr>
+      <th scope="col" style="width:3em">#</th>
+      <th scope="col">Document</th>
+      <th scope="col" style="width:13em">Filed By</th>
+      <th scope="col" style="width:11em">Status</th>
+    </tr>
+    </thead>
+    <tbody>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              1
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=ZN4bKAZQhVQYTbJffWdvcg==" target="_blank" aria-label=" SUMMONS + COMPLAINT, page opens in new tab">SUMMONS + COMPLAINT</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 12/17/2021
+            <br/><span class="grayItalic">
+                Received: 12/17/2021
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=ZN4bKAZQhVQYTbJffWdvcg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              2
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=eOu8jJZM70/VBa7nWMarlQ==" target="_blank" aria-label=" ANSWER, page opens in new tab">ANSWER</a>
+
+    		</td>
+        <td>
+                Counsel, Corporation
+              <br/>Filed: 01/19/2022
+            <br/><span class="grayItalic">
+                Received: 01/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=eOu8jJZM70/VBa7nWMarlQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              3
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=nakkbgg_PLUS_/9KFYmOYdCjBWg==" target="_blank" aria-label=" PRELIMINARY CONFERENCE REQUEST, page opens in new tab">PRELIMINARY CONFERENCE REQUEST</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 01/21/2022
+            <br/><span class="grayItalic">
+                Received: 01/21/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=nakkbgg_PLUS_/9KFYmOYdCjBWg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              4
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=ZkepdcgqwXylINWkOcc1Kg==" target="_blank" aria-label=" RJI -RE: REQUEST FOR PRELIMINARY CONFERENCE, page opens in new tab">RJI -RE: REQUEST FOR PRELIMINARY CONFERENCE</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 01/21/2022
+            <br/><span class="grayItalic">
+                Received: 01/21/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=ZkepdcgqwXylINWkOcc1Kg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              5
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=74bLpPgpG_PLUS_ZdozvJf99ocQ==" target="_blank" aria-label=" AFFIRMATION/AFFIDAVIT OF SERVICE, page opens in new tab">AFFIRMATION/AFFIDAVIT OF SERVICE</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 01/26/2022
+            <br/><span class="grayItalic">
+                Received: 01/26/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=74bLpPgpG_PLUS_ZdozvJf99ocQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              6
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=DdYXmrFSNejGzw93bfMNBQ==" target="_blank" aria-label=" AFFIRMATION/AFFIDAVIT OF SERVICE, page opens in new tab">AFFIRMATION/AFFIDAVIT OF SERVICE</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 02/16/2022
+            <br/><span class="grayItalic">
+                Received: 02/16/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=DdYXmrFSNejGzw93bfMNBQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              7
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=hyDlM5mavXEZkvRmZOQgOw==" target="_blank" aria-label=" ORDER - CASE SCHEDULING, page opens in new tab">ORDER - CASE SCHEDULING</a>
+
+              <br/><span class="italic">Dated 3/2/2022
+              </span>
+    		</td>
+        <td>
+                Court User
+              <br/>Filed: 03/02/2022
+            <br/><span class="grayItalic">
+                Received: 03/02/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=hyDlM5mavXEZkvRmZOQgOw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              8
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=8BkpDacXOTtN5GPkIf1U4g==" target="_blank" aria-label=" NOTICE OF MOTION, page opens in new tab">NOTICE OF MOTION</a>
+            &nbsp;(Motion #1)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=8BkpDacXOTtN5GPkIf1U4g==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              9
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=a1ZuA17EPaUB2myhvRpRNA==" target="_blank" aria-label=" AFFIDAVIT OR AFFIRMATION IN SUPPORT OF MOTION, page opens in new tab">AFFIDAVIT OR AFFIRMATION IN SUPPORT OF MOTION</a>
+            &nbsp;(Motion #1)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=a1ZuA17EPaUB2myhvRpRNA==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              10
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=lj32LPLjaZYAtO63HRI20A==" target="_blank" aria-label=" AFFIRMATION OF GOOD FAITH, page opens in new tab">AFFIRMATION OF GOOD FAITH</a>
+            &nbsp;(Motion #1)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=lj32LPLjaZYAtO63HRI20A==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              11
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=PV873zJYvkOK5Kbh1RAt3g==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- A
+            &nbsp;(Motion #1)
+
+              <br/><span class="italic">pleadings
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=PV873zJYvkOK5Kbh1RAt3g==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              12
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=nVj30C_PLUS_zIjhVtfPU7PIZRQ==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- B
+            &nbsp;(Motion #1)
+
+              <br/><span class="italic">Bill of Particulars
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=nVj30C_PLUS_zIjhVtfPU7PIZRQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              13
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=hIJ1ohoYITYCj2WigDjT3Q==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- C
+            &nbsp;(Motion #1)
+
+              <br/><span class="italic">CSO
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=hIJ1ohoYITYCj2WigDjT3Q==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              14
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=YjKXfE7bYC_PLUS_QrFfLRWY1WQ==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- D
+            &nbsp;(Motion #1)
+
+              <br/><span class="italic">Supplemental D and I
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 04/19/2022
+            <br/><span class="grayItalic">
+                Received: 04/19/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=YjKXfE7bYC_PLUS_QrFfLRWY1WQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              15
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=CwFI_PLUS_jxid_PLUS_X_PLUS_/u9YxqBKaw==" target="_blank" aria-label=" STIPULATION - ADJOURNMENT OF MOTION, page opens in new tab">STIPULATION - ADJOURNMENT OF MOTION</a>
+            &nbsp;(Motion #1)
+
+    		</td>
+        <td>
+                STEINBERG, RUSSELL ANDREW
+              <br/>Filed: 05/03/2022
+            <br/><span class="grayItalic">
+                Received: 05/03/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=CwFI_PLUS_jxid_PLUS_X_PLUS_/u9YxqBKaw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              16
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=9UxQ9yxqoh0k7avZpnom1g==" target="_blank" aria-label=" NOTICE OF MOTION, page opens in new tab">NOTICE OF MOTION</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=9UxQ9yxqoh0k7avZpnom1g==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              17
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=L455i7XA1Uwu5sTRn/4xeQ==" target="_blank" aria-label=" AFFIDAVIT OR AFFIRMATION IN SUPPORT OF MOTION, page opens in new tab">AFFIDAVIT OR AFFIRMATION IN SUPPORT OF MOTION</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=L455i7XA1Uwu5sTRn/4xeQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              18
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=OUg8pSK6InrinRnVfafJjQ==" target="_blank" aria-label=" AFFIRMATION OF GOOD FAITH, page opens in new tab">AFFIRMATION OF GOOD FAITH</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=OUg8pSK6InrinRnVfafJjQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              19
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=P2S7HBud6ICaDcjWddMiCg==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- A
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">RAMONE DICKENSON&#39;S 50-H MINUTES
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=P2S7HBud6ICaDcjWddMiCg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              20
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=lw8UPAtv2dHprMozCQFf6A==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- B
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">JASON TYGHTER&#39;S 50-H MINUTES
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=lw8UPAtv2dHprMozCQFf6A==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              21
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=aofpiR85D3VaV91rMiOXrA==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- C
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">RASHEEM GRANT&#39;S 50-H MINUTES
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=aofpiR85D3VaV91rMiOXrA==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              22
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=LSe8R3LJRHkhdfWoLsy00w==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- D
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">AFFIDAVITS OF SERVICE
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=LSe8R3LJRHkhdfWoLsy00w==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              23
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=YqxXKhA14TJAwItW3uqLCw==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- E
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">CASE SCHEDULING ORDER
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=YqxXKhA14TJAwItW3uqLCw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              24
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=7Y1oPE7l3o7LcmCghMGfbw==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- F
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">PLAINTIFFS&#39;  CASE SCHEDULING ORDER RESPONSE
+              </span>
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=7Y1oPE7l3o7LcmCghMGfbw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              25
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=vyXR7Rd7JI54kukZjF2u2g==" target="_blank" aria-label=" AFFIRMATION/AFFIDAVIT OF SERVICE, page opens in new tab">AFFIRMATION/AFFIDAVIT OF SERVICE</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 06/29/2022
+            <br/><span class="grayItalic">
+                Received: 06/29/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=vyXR7Rd7JI54kukZjF2u2g==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              26
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=DyVkXlfMJoJyghPIYbsHtA==" target="_blank" aria-label=" STIPULATION - ADJOURNMENT OF MOTION, page opens in new tab">STIPULATION - ADJOURNMENT OF MOTION</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                STEINBERG, RUSSELL ANDREW
+              <br/>Filed: 07/14/2022
+            <br/><span class="grayItalic">
+                Received: 07/14/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=DyVkXlfMJoJyghPIYbsHtA==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              27
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=/UTrSG7RQ7lQuspg88kMwQ==" target="_blank" aria-label=" ANSWER (AMENDED), page opens in new tab">ANSWER (AMENDED)</a>
+
+    		</td>
+        <td>
+                STEINBERG, RUSSELL ANDREW
+              <br/>Filed: 07/22/2022
+            <br/><span class="grayItalic">
+                Received: 07/22/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=/UTrSG7RQ7lQuspg88kMwQ==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              28
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=t8L4mzzuMHPFbJkDrCSXhA==" target="_blank" aria-label=" DECISION + ORDER ON MOTION, page opens in new tab">DECISION + ORDER ON MOTION</a>
+            &nbsp;(Motion #1)
+
+              <br/><span class="italic">Short form Order Dated 07/26/2022
+              </span>
+    		</td>
+        <td>
+                Court User
+              <br/>Filed: 07/28/2022
+            <br/><span class="grayItalic">
+                Received: 07/28/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=t8L4mzzuMHPFbJkDrCSXhA==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              29
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=djeyajZO/_PLUS_bNrDrfTxpi3A==" target="_blank" aria-label=" NOTICE OF ENTRY, page opens in new tab">NOTICE OF ENTRY</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 07/28/2022
+            <br/><span class="grayItalic">
+                Received: 07/28/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=djeyajZO/_PLUS_bNrDrfTxpi3A==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              30
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=7BxJHFEU3kRmAE8oUHQBSg==" target="_blank" aria-label=" NOTICE OF CROSS-MOTION, page opens in new tab">NOTICE OF CROSS-MOTION</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=7BxJHFEU3kRmAE8oUHQBSg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              31
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=eWGXTYkj4kzNumqi3GW4yw==" target="_blank" aria-label=" AFFIDAVIT OR AFFIRMATION IN OPPOSITION TO MOTION AND IN SUPPORT OF CROSS-MOTION, page opens in new tab">AFFIDAVIT OR AFFIRMATION IN OPPOSITION TO MOTION AND IN SUPPORT OF CROSS-MOTION</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=eWGXTYkj4kzNumqi3GW4yw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              32
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=Skf5Su9/DTZMGiclcEMZeg==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- 1
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">Answer
+              </span>
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=Skf5Su9/DTZMGiclcEMZeg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              33
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=_PLUS_WuPlTwJMvnnd2obkH703Q==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- 2
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">Amended Answer
+              </span>
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=_PLUS_WuPlTwJMvnnd2obkH703Q==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              34
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=0uvvdBV7KYOTPu7a1R5y9Q==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- 3
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">Defendants&#39; CSO Response (without exhibits)
+              </span>
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=0uvvdBV7KYOTPu7a1R5y9Q==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              35
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=H8Lg8P0kCZeCLveXIjAXcw==" target="_blank" aria-label=" EXHIBIT(S), page opens in new tab">EXHIBIT(S)</a>
+            &nbsp;- 4
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">Defendants&#39; First Supplemental CSO Response
+              </span>
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=H8Lg8P0kCZeCLveXIjAXcw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              36
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=FS7eGj857xCAV/6Uimyq/w==" target="_blank" aria-label=" NO FEE AUTHORIZATION (LETTER/ORDER/AFFIRMATION), page opens in new tab">NO FEE AUTHORIZATION (LETTER/ORDER/AFFIRMATION)</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                COPPERMAN, JOSHUA NEIL
+              <br/>Filed: 08/24/2022
+            <br/><span class="grayItalic">
+                Received: 08/24/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=FS7eGj857xCAV/6Uimyq/w==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              37
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=_PLUS_B8aMtWW9HLKXWBvKlhxsg==" target="_blank" aria-label=" AFFIDAVIT OR AFFIRMATION IN OPPOSITION TO CROSS-MOTION AND IN FURTHER SUPPORT OF MOTION, page opens in new tab">AFFIDAVIT OR AFFIRMATION IN OPPOSITION TO CROSS-MOTION AND IN FURTHER SUPPORT OF MOTION</a>
+            &nbsp;(Motion #2)
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 09/08/2022
+            <br/><span class="grayItalic">
+                Received: 09/08/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=_PLUS_B8aMtWW9HLKXWBvKlhxsg==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              38
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=gOYxSkB9sk7bPG1Hb7AA0w==" target="_blank" aria-label=" ORDER - STRIKE, page opens in new tab">ORDER - STRIKE</a>
+            &nbsp;(Motion #2)
+
+              <br/><span class="italic">Short Form Order dated 10/6/2022 RESOLVED PER ANNEXED SO ORDERED STIPULATION
+              </span>
+    		</td>
+        <td>
+                Court User
+              <br/>Filed: 10/07/2022
+            <br/><span class="grayItalic">
+                Received: 10/07/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=gOYxSkB9sk7bPG1Hb7AA0w==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr>
+        <td style="font-size:.9;padding-right:0">
+              39
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=NgOpMdaSeW8Jf03z0AhbcA==" target="_blank" aria-label=" STIPULATION - OTHER - ( REQUEST TO SO ORDER ), page opens in new tab">STIPULATION - OTHER - ( REQUEST TO SO ORDER )</a>
+
+    		</td>
+        <td>
+                WOLLERSTEIN, NEIL DAVID
+              <br/>Filed: 12/08/2022
+            <br/><span class="grayItalic">
+                Received: 12/08/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=NgOpMdaSeW8Jf03z0AhbcA==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+
+
+
+            <tr class="changeColor">
+        <td style="font-size:.9;padding-right:0">
+              40
+        </td>
+        <td>
+          	<a href="ViewDocument?docIndex=WaorDW/6NuzMi8XV_PLUS_0B4sw==" target="_blank" aria-label=" ORDER - COMPLIANCE CONFERENCE, page opens in new tab">ORDER - COMPLIANCE CONFERENCE</a>
+
+              <br/><span class="italic">Dated: 12/7/22
+              </span>
+    		</td>
+        <td>
+                Court User
+              <br/>Filed: 12/15/2022
+            <br/><span class="grayItalic">
+                Received: 12/15/2022
+            </span>
+        </td>
+        <td>
+            <span class="green"><strong>Processed</strong></span>
+          <br />
+					<a href="ConfirmationNotice?docId=WaorDW/6NuzMi8XV_PLUS_0B4sw==" target="_blank" aria-label="confirmation notice, page opens in new tab">Confirmation Notice</a>
+              <br />
+        </td>
+      </tr>
+    </tbody>
+    </table>
+
+</div>
+  <span class="returnLink"><br/><< Return to <a href="CaseSearchResults?PageNum=1"><b>Search Results</b></a></span>
+</form>
+
+  </div>
+
+    <script type="text/javascript">
+    function showHide(id) {
+      if (document.getElementById(id)) {
+        if (document.getElementById('clerkMessage-show').style.display != 'none') {
+          document.getElementById('clerkMessage-show').style.display = 'none';
+          document.getElementById('clerkMessage').style.display = 'block';
+        }
+        else {
+          document.getElementById('clerkMessage-show').style.display = 'inline';
+          document.getElementById('clerkMessage').style.display = 'none';
+        }
+      }
+    }
+    </script>
+    <div class="clerkBanner">
+        <span class="clerkName">Honorable Ischia Bravo</span>
+      <span class="clerkDesc">
+          Bronx County Clerk/Commissioner of Jurors<br />
+      </span>
+      <span class="clerkName">Bronx County Clerk's Office</span>
+      <span class="clerkDesc">
+        851 Grand Concourse<br />
+        Bronx, NY 10451<br />
+        718-618-3340<br />
+        718-590-8122 (fax)<br />
+        
+            <a href="/cdn-cgi/l/email-protection#03415b40402e66656a6f66436d7a606c767177702d646c75" target="_parent" aria-label="BXCC-efile@nycourts.gov: opens email for the court">
+            <span class="__cf_email__" data-cfemail="f8baa0bbbbd59d9e91949db896819b978d8a8c8bd69f978e">[email&#160;protected]</span>
+          </a>
+      </span>
+              <span class="clerkName">Loretta Rambharose</span>
+            <span class="clerkDesc">
+              Administrator<br />
+            </span>
+      <span class="clerkDesc">
+        <br/><img src="https://iappscontent.courts.state.ny.us/NYSCEF/live/clerkBanner/BronxSeal.png" alt="picture of court seal" />
+            Welcome to Bronx County Clerk's E-Filing Program as part of the NYSCEF System. For more information on how your filing is processed in Bronx County, please visit our website.
+          <br />
+            <a href="https://www.nycourts.gov/courts/12th-judicial-district/bronx-county-clerks-office" target="_blank" aria-label="https://www.nycourts.gov/courts/12th-judicial-district/bronx-county-clerks-office: opens pdf document in a new tab">
+            Bronx County Clerks Website
+          </a>
+      </span>
+        <div id="backtop">&#9650;</div>
+    </div>
+</div>
+
+<div id="footer">
+  <footer>
+  <fieldset>
+    <legend class="visually-hidden">Page Footer Menu</legend>
+
+      <div id="fHeading">
+        <span class="fMenuTitle">NYSCEF</span>
+        <span class="fMenuItem">E-mail: <a href="/cdn-cgi/l/email-protection#5d33242e3e383b1d33243e32282f292e733a322b622e283f37383e296018701b343134333a780a383f780e342938" id="nav" aria-label="nyscef@nycourts.gov: opens email for nyscef"><span class="__cf_email__" data-cfemail="6907101a0a0c0f2907100a061c1b1d1a470e061f">[email&#160;protected]</span></a></span>
+        <span class="fMenuItem">Phone: (646) 386-3033</span>
+        <span class="fMenuItem">Fax: (212) 401-9146</span>
+      </div>
+      <div id="fMenu" class="footerMenuLayout">
+        <fieldset>
+          <legend class="visually-hidden">Websites</legend>
+          <span style="width:auto;">
+            Websites<br />
+            <a href="HomePage">NYSCEF</a><br />
+            <a href="UnRepresentedHome">Unrepresented Litigants</a>
+          </span>
+        </fieldset>
+        <fieldset>
+          <legend class="visually-hidden">Account</legend>
+          <span>Account<br />
+            <a href="CreateAccount">Create an Account</a><br/>
+            <a href="Login">Login</a><br/>
+            <a href="CaseSearch">Search as Guest</a>
+          </span>
+        </fieldset>
+        <fieldset>
+          <legend class="visually-hidden">Resources</legend>
+          <span>
+            Resources<br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/forms.htm" target="_blank" aria-label="Forms: opens page in a new tab">Forms</a><br/>
+            <a href="AuthorizedCaseType" target="_blank" aria-label="Authorized Courts: opens page in a new tab">Authorized Courts</a><br/>
+            <a href="AvailableDocumentTypes" target="_blank" aria-label="Available Documents: opens page in a new tab">Available Documents</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/legislation.htm" target="_blank" aria-label="Rules and Legislation: opens page in a new tab">Rules &amp; Legislation</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/protocols.htm" target="_blank" aria-label="Protocols: opens page in a new tab">Protocols</a>
+          </span>
+        </fieldset>
+        <fieldset>
+          <legend class="visually-hidden">Help</legend>
+          <span style="width:auto">
+            Help<br>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/faq.htm" target="_blank" aria-label="FAQs: opens page in a new tab">FAQs</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/help/RemoveConsentInstructions.html" target="_blank" aria-label="Remove Attorney Representation: opens page in a new tab">Remove Attorney Representation</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/training.htm" target="_blank" aria-label="Training: opens page in a new tab">Training</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/termsOfUse.htm" target="_blank" aria-label="Terms of Use: opens page in a new tab">Terms of Use</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/training/userManual.html" target="_blank" aria-label="User Manual: page opens in a new tab">User Manual</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/requirements.htm" target="_blank" aria-label="Filing Requirements: opens page in a new tab">Filing Requirements</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/evidence.htm" target="_blank" aria-label="VEC Resources: opens page in a new tab">VEC Resources</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/contact.htm" target="_blank" aria-label="Contact Us: opens page in a new tab">Contact Us</a>
+          </span>
+        </fieldset>
+        <fieldset class="last">
+          <legend class="visually-hidden">Support</legend>
+          <span style="width:auto;">
+            Support<br />
+            <a href="https://www.nycourts.gov/public-information/x-accounts" target="_blank" aria-label="Follow UCS: opens page in a new tab">Follow UCS on X</a><br/>
+            <a href="https://www.nycourts.gov/rules/requests-public-comment" target="_blank" aria-label="Request for Public Comment: opens page in a new tab">Request for Public Comment</a><br/>
+            <a href="https://iappscontent01-qa.azurewebsites.us/NYSCEF/staging/help/UnrepresentedFactSheet.html" target="_blank" aria-label="Unrepresented Litigants Fact Sheet: opens page in a new tab">Unrepresented Litigants Fact Sheet</a><br/>
+            <a href="https://legacypdf.blob.core.usgovcloudapi.net/public/2026-05/26_e-file_report.pdf" target="_blank" aria-label="E-File Report: opens a pdf document in a new tab">E-File Report</a>
+          </span>
+        </fieldset>
+      </div>
+  </fieldset>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a30da5338c6dbcae',t:'MTc4NzY5Mjg3NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
