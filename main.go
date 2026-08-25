@@ -52,7 +52,7 @@ var ( // Groups the shared runtime values used by the workflows.
 		"https://www.50-a.org/data/nypd/awards.csv",     // Points to the awards dataset.
 		"https://www.50-a.org/data/nypd/training.csv",   // Points to the training dataset.
 	} // Ends the CSV source URL list.
-	
+
 	// startingPercentage = generateRandomFloatOneDecimal() // Randomly skips the initial portion of command links before scraping begins.
 	startingPercentage = 0.0 // Starts scraping from the first command link without skipping any.
 
@@ -800,8 +800,17 @@ func init() { // Initializes the program before main() runs.
 } // Ends the initialization function.
 
 func main() { // Runs the main program workflow.
-	pdfWorkflowError := downloadOfficerPDFDocuments() // Starts the PDF scraping and download workflow.
-	if pdfWorkflowError != nil {                      // Checks whether the PDF workflow encountered an error.
-		log.Fatalf("[FATAL] PDF scraping and download workflow encountered a critical failure and cannot continue. Error details: %v", pdfWorkflowError) // Exits the program and logs the PDF workflow error.
-	} // Ends the PDF workflow error check.
+	delayBetweenLoops := 30 * time.Minute // Sets the wait time between passes to 30 minutes.
+
+	for { // Loops forever, running one pass per iteration.
+		pdfWorkflowError := downloadOfficerPDFDocuments() // Starts the PDF scraping and download workflow for this pass.
+		if pdfWorkflowError != nil {                      // Checks whether the PDF workflow encountered an error.
+			log.Printf("[ERROR] PDF scraping and download workflow failed this pass. Error details: %v", pdfWorkflowError) // Logs the error without exiting the program.
+		} else { // Runs if the workflow completed without error.
+			log.Println("[INFO] PDF scraping and download workflow completed successfully.") // Logs that this pass finished cleanly.
+		} // Ends the success/failure branch.
+
+		log.Printf("[LOOP] Waiting %v before next pass...", delayBetweenLoops) // Logs how long the program will wait before looping again.
+		time.Sleep(delayBetweenLoops)                                          // Pauses execution for the configured delay before starting the next pass.
+	} // Ends the infinite loop.
 } // Ends the program entry point.
