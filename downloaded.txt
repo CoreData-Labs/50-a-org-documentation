@@ -26358,3 +26358,4 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rZCXSmCVCvcbaauWfl
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=VnUUkbGUP9nToqUe5GPEjg== > PDFs/961770/150533_2021_kyle_beaton_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Zjwx8Xgk_PLUS_osKhQeC8Jaw1g== > PDFs/961770/153491_2018_emmanuel_jallah_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=VOD3bf_PLUS_E9wNBPzCezNF0IA== > PDFs/941539/151013_2015_michael_johnson_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=x9yQ/kSKcx/c1D3t2F01CA== > PDFs/959922/517140_2024_jeffrey_lochard_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
