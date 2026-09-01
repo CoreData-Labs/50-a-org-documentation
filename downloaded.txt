@@ -26388,3 +26388,4 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Qk3tZYf_PLUS_que98
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=DVjAZWgpC0OEVZk3g1X7dg== > PDFs/953132/803304_2022e_macario_wilchez_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=8lRxrvmWhs0iJxF_PLUS_FlKDSw== > PDFs/967306/818508_2023e_elijah_uptegrow_v_city_of_new_york_et_al_summons_complaint_1.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rstlhlXH7UjuYgxkjYAz8w== > PDFs/959978/156175_2022_moishe_bradley_et_al_v_moishe_bradley_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/28585271/gitto_08252026pdf.pdf > PDFs/967523/gitto_08252026pdf.pdf
