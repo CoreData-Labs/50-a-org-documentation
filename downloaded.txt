@@ -26394,3 +26394,6 @@ https://s3.documentcloud.org/documents/28589912/941208_07102026_2026033pdf.pdf >
 https://s3.documentcloud.org/documents/28589914/957906_07172026_2026036pdf.pdf > PDFs/957906/957906_07172026_2026036pdf.pdf
 https://s3.documentcloud.org/documents/28589913/970356_07102026_2026034pdf.pdf > PDFs/970356/970356_07102026_2026034pdf.pdf
 https://s3.documentcloud.org/documents/28585272/mignone_08212026pdf.pdf > PDFs/956932/mignone_08212026pdf.pdf
+https://s3.documentcloud.org/documents/25523768/202104348_redactedclosingreport_redacted.pdf > PDFs/949641/202104348_redactedclosingreport_redacted.pdf
+https://s3.documentcloud.org/documents/4922706/Rogers-v-City-of-New-York-et-al.pdf > PDFs/942003/rogers_v_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/26206421/202204631-tax953989-apu-final-documentspdf.pdf > PDFs/953989/202204631_tax953989_apu_final_documentspdf.pdf
