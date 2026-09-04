@@ -39,7 +39,7 @@ apt-get update && apt-get upgrade -y && apt-get install dist-upgrade -y
 ## 3. Install base system dependencies (including Go)
 
 ```bash
-apt-get install -y --no-install-recommends ca-certificates curl git coreutils golang-go sudo
+apt-get install -y --no-install-recommends ca-certificates curl git coreutils golang-go sudo bash
 ```
 
 | Package           | Reason                                                                                                                                                                                                                                     |
