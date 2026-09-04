@@ -39,7 +39,7 @@ apt-get update && apt-get upgrade -y && apt-get install dist-upgrade -y
 ## 3. Install base system dependencies (including Go)
 
 ```bash
-apt-get install -y --no-install-recommends ca-certificates curl git coreutils golang-go
+apt-get install -y --no-install-recommends ca-certificates curl git coreutils golang-go sudo
 ```
 
 | Package           | Reason                                                                                                                                                                                                                                     |
@@ -49,16 +49,20 @@ apt-get install -y --no-install-recommends ca-certificates curl git coreutils go
 | `git`             | Clones the repo (step 6) **and** is what `uploader.sh` shells out to on every cycle — required, not optional.                                                                                                                              |
 | `coreutils`       | Provides the basic utilities this guide leans on throughout (`date`, `wc`, `tail`, `find`, etc.). Present on nearly every Ubuntu base image already, but installing explicitly guards against a minimal/stripped-down image that omits it. |
 | `golang-go`       | The Go toolchain — compiles the scraper. Installed via `apt` rather than the upstream tarball, so it's patched the same way as every other package on the box (`apt-get upgrade golang-go`, see step 13).                                  |
+| `sudo`            | Allows users to run commands with administrator/root privileges.                                                                                                                                                                           |
+| `bash`            | Bourne Again SHell — a command-line shell used to execute commands and shell scripts.                                                                                                                                                      |
 
 Nothing browser-related (`libnss3`, `libgbm1`, `fonts-liberation`, `xvfb`, etc.) is needed for this project — there's no headless Chrome in the dependency chain.
 
 **Resolve the actual binary paths — don't assume a fixed location:**
 
 ```bash
+BASH_BIN=$(command -v bash)
+SUDO_BIN=$(command -v sudo)
 GO_BIN=$(command -v go)
 GIT_BIN=$(command -v git)
 
-for var in GO_BIN GIT_BIN; do
+for var in BASH_BIN SUDO_BIN GO_BIN GIT_BIN; do
   if [ -z "${!var}" ]; then
     echo "ERROR: $var not found on PATH — install step for it failed or didn't complete."
   else
@@ -173,12 +177,6 @@ tail -n 5 "$APP_DIR/downloaded.txt"
 
 **Resuming a partial run:** if you stop the scraper partway through, `main.go` exposes a `startingPercentage` variable (see the README's "Resuming a Scrape" section) that skips ahead to a known checkpoint in the 481-unit list instead of re-scraping from the top. Leave it at `0.0` for a full run from the beginning.
 
-**Alternative — the repo's own shell wrapper:** `main.sh` is what GitHub Actions uses to build and run the scraper in CI, and does its own build-then-run internally. It's a fine substitute for the manual `go build` + run above if you'd rather let the script handle both steps:
-
-```bash
-bash "$APP_DIR/main.sh"
-```
-
 This guide's systemd unit (step 10a) still points at the standalone `$APP_DIR/50a-scraper` binary either way, since that's the fastest, least failure-prone thing for systemd to launch directly.
 
 ---
@@ -259,7 +257,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 WorkingDirectory=$APP_DIR
-ExecStart=/bin/bash $APP_DIR/uploader.sh
+ExecStart=$SUDO_BIN $BASH_BIN $APP_DIR/uploader.sh
 Restart=always
 RestartSec=30
 StandardOutput=journal
