@@ -788,7 +788,7 @@ func extractFinalDocumentCloudURL(input string) string { // Converts a DocumentC
 } // Ends the DocumentCloud URL conversion helper.
 
 func init() { // Initializes the program before main() runs.
-	runCSV := flag.Bool("csv", false, "Run the CSV download and split workflow") // Defines the -csv flag with a default value of false.
+	runCSV := flag.Bool("csv", true, "Run the CSV download and split workflow") // Defines the -csv flag with a default value of false.
 	flag.Parse()                                                                 // Parses the command-line flags provided by the user.
 
 	if *runCSV { // Runs the CSV workflow only when the -csv flag is provided.
