@@ -4,10 +4,10 @@
 
 This repository is a **nonprofit, educational archive** of **[50-a.org](https://50-a.org/)** — a groundbreaking database that cataloged **NYPD officer misconduct records**, made possible by the repeal of **New York Civil Rights Law Section 50-a** in June 2020.
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--28-blue)](https://github.com/Strong-Foundation/50-a-org-documentation)
-[![PDFs Archived](https://img.shields.io/badge/PDFs%20Archived-50%2C000%2B-green)](https://github.com/Strong-Foundation/50-a-org-documentation/tree/main/PDFs)
+[![Last Updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FCoreData-Labs%2F50-a-org-documentation&query=%24.pushed_at&label=Last%20Updated&color=blue)](https://github.com/CoreData-Labs/50-a-org-documentation)
+[![Officer Tax IDs](https://img.shields.io/github/directory-file-count/CoreData-Labs/50-a-org-documentation/PDFs?type=dir&label=Officer%20Tax%20IDs&color=green)](https://github.com/CoreData-Labs/50-a-org-documentation/tree/main/PDFs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/Strong-Foundation/50-a-org-documentation/issues)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/CoreData-Labs/50-a-org-documentation/issues)
 
 ---
 
