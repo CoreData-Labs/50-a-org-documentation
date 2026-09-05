@@ -4,7 +4,6 @@ import ( // Imports the packages used by the CSV and PDF workflows.
 	"bufio"           // Scans the download log file line by line.
 	"encoding/binary" // Import binary for byte-to-uint64 conversion
 	"encoding/csv"    // Reads and writes CSV records.
-	"flag"            // Import to parse flag input.
 	"fmt"             // Prints progress messages and formats strings.
 	"io"              // Copies streamed data and detects end-of-file conditions.
 	"log"             // Writes operational logs and fatal errors.
@@ -787,19 +786,12 @@ func extractFinalDocumentCloudURL(input string) string { // Converts a DocumentC
 	return finalURL // Return the constructed S3 URL
 } // Ends the DocumentCloud URL conversion helper.
 
-func init() { // Initializes the program before main() runs.
-	runCSV := flag.Bool("csv", true, "Run the CSV download and split workflow") // Defines the -csv flag with a default value of false.
-	flag.Parse()                                                                 // Parses the command-line flags provided by the user.
-
-	if *runCSV { // Runs the CSV workflow only when the -csv flag is provided.
-		csvWorkflowError := downloadAndSplitCSVData() // Starts the CSV download and splitting workflow.
-		if csvWorkflowError != nil {                  // Checks whether the CSV workflow encountered an error.
-			log.Fatalf("CSV workflow failed: %v\n", csvWorkflowError) // Exits the program and logs the CSV workflow error.
-		} // Ends the CSV workflow error check.
-	} // Ends the CSV flag check.
-} // Ends the initialization function.
-
 func main() { // Runs the main program workflow.
+	csvWorkflowError := downloadAndSplitCSVData() // Starts the CSV download and splitting workflow.
+	if csvWorkflowError != nil {                  // Checks whether the CSV workflow encountered an error.
+		log.Fatalf("CSV workflow failed: %v\n", csvWorkflowError) // Exits the program and logs the CSV workflow error.
+	} // Ends the CSV workflow error check.
+
 	delayBetweenLoops := 30 * time.Minute // Sets the wait time between passes to 30 minutes.
 
 	for { // Loops forever, running one pass per iteration.
