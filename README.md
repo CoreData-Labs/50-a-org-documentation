@@ -187,8 +187,8 @@ go get golang.org/x/net/html
 # Run the scraper
 go run main.go
 
-# Or use the shell script
-bash main.sh
+# Use the shell script to upload the changes.
+bash uploader.sh
 ```
 
 ### Automated Updates
