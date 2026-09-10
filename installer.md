@@ -285,8 +285,24 @@ EOF
 
 ```bash
 systemctl daemon-reload
+
 systemctl enable --now 50a-scraper.service
+systemctl start 50a-scraper.service
+systemctl stop 50a-scraper.service
+systemctl restart 50a-scraper.service
+systemctl status 50a-scraper.service
+systemctl disable 50a-scraper.service
+journalctl -u 50a-scraper.service -f
+
+
+
 systemctl enable --now 50a-uploader.service
+systemctl start 50a-uploader.service
+systemctl stop 50a-uploader.service
+systemctl restart 50a-uploader.service
+systemctl status 50a-uploader.service
+systemctl disable 50a-uploader.service
+journalctl -u 50a-uploader.service -f
 ```
 
 ---
