@@ -26397,3 +26397,4 @@ https://s3.documentcloud.org/documents/28585272/mignone_08212026pdf.pdf > PDFs/9
 https://s3.documentcloud.org/documents/25523768/202104348_redactedclosingreport_redacted.pdf > PDFs/949641/202104348_redactedclosingreport_redacted.pdf
 https://s3.documentcloud.org/documents/4922706/Rogers-v-City-of-New-York-et-al.pdf > PDFs/942003/rogers_v_city_of_new_york_et_al.pdf
 https://s3.documentcloud.org/documents/26206421/202204631-tax953989-apu-final-documentspdf.pdf > PDFs/953989/202204631_tax953989_apu_final_documentspdf.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=T3xDtillg8TPUn6qTSZsOQ== > PDFs/953760/32070_2019e_jerry_simmons_v_city_of_new_york_et_al_summons_complaint_1.pdf
