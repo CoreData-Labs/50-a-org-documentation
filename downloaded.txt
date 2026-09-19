@@ -26401,3 +26401,14 @@ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=T3xDtillg8TPUn6qTS
 https://s3.documentcloud.org/documents/28609106/brandi_09042026pdf.pdf > PDFs/979735/brandi_09042026pdf.pdf
 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=genBqMdzzk0PHxWISBRTgQ== > PDFs/974711/522706_2024_sean_wiggins_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
 https://s3.documentcloud.org/documents/21028719/seecharan-3deec7cedf25b1f3078f91e2335e759fb96ee3af.pdf > PDFs/957149/seecharan_3deec7cedf25b1f3078f91e2335e759fb96ee3af.pdf
+https://s3.documentcloud.org/documents/24441424/201509503_redactedclosingreport_redacted.pdf > PDFs/952037/201509503_redactedclosingreport_redacted.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=KmzWJXQn4EqngOLl3mxFZA== > PDFs/946762/815334_2021e_kenneth_vasquez_v_city_of_new_york_et_al_summons_complaint_1.pdf
+https://s3.documentcloud.org/documents/21020542/ayala-e274820e91feccf41480bcce10f18e6ba6b34e2d.pdf > PDFs/946762/ayala_e274820e91feccf41480bcce10f18e6ba6b34e2d.pdf
+https://s3.documentcloud.org/documents/21019911/daf-mccarthy-933979.pdf > PDFs/933979/daf_mccarthy_933979.pdf
+https://s3.documentcloud.org/documents/21019912/df-mccarthy933979.pdf > PDFs/933979/df_mccarthy933979.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=kj00KPq/tNZtL5N31pYTNg== > PDFs/943585/161248_2014_david_ruiz_v_city_of_new_york_et_al_complaint_2.pdf
+https://s3.documentcloud.org/documents/21026706/morales-47ee3f4e3dc471215052d7bb22cf32fc3a02d11b.pdf > PDFs/943585/morales_47ee3f4e3dc471215052d7bb22cf32fc3a02d11b.pdf
+https://s3.documentcloud.org/documents/21066646/morales-943585-12-16-20.pdf > PDFs/943585/morales_943585_12_16_20.pdf
+https://s3.documentcloud.org/documents/4918541/Bellusci-v-City-of-New-York-et-al.pdf > PDFs/906243/bellusci_v_city_of_new_york_et_al.pdf
+https://s3.documentcloud.org/documents/4918544/Bellusci-v-City-of-New-York-et-al.pdf > PDFs/906243/bellusci_v_city_of_new_york_et_al.pdf
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=O1a8fiD0l30JpBAbQfG_PLUS_CQ== > PDFs/933315/23451_2017e_jerome_jones_v_the_city_of_new_york_et_al_summons_complaint_1.pdf
