@@ -26417,3 +26417,4 @@ https://s3.documentcloud.org/documents/28711035/968270_08072026_2026038pdf.pdf >
 https://s3.documentcloud.org/documents/28711038/944294_08072026_2026039pdf.pdf > PDFs/944294/944294_08072026_2026039pdf.pdf
 https://s3.documentcloud.org/documents/21017978/daf-gonzalez941835.pdf > PDFs/941835/daf_gonzalez941835.pdf
 https://s3.documentcloud.org/documents/28711037/945623_08072026_2026040pdf.pdf > PDFs/945623/945623_08072026_2026040pdf.pdf
+https://s3.documentcloud.org/documents/28719566/pali_09302026pdf.pdf > PDFs/961060/pali_09302026pdf.pdf
