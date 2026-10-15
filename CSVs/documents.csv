@@ -172,7 +172,6 @@ taxid,date,url,type
 945630,7/14/2017,https://nypdonline.org/files/945630_07142017_2017084.pdf,Trial Decision
 945632,6/7/2016,https://nypdonline.org/files/945632_06072016_2016106.pdf,Trial Decision
 945634,1/7/2013,https://nypdonline.org/files/945634_01072013_2013039.pdf,Trial Decision
-950268,9/18/2025,https://nypdonline.org/files/Daley_09182025.pdf,Deviation Letter
 922204,8/3/2017,https://nypdonline.org/files/922204_08032017_2017059.pdf,Trial Decision
 952635,11/9/2017,https://nypdonline.org/files/952635_11092017_2017006.pdf,Trial Decision
 957509,9/10/2025,https://nypdonline.org/files/Damico_09102025.pdf,Deviation Letter
@@ -185,7 +184,6 @@ taxid,date,url,type
 943137,2/19/2015,https://nypdonline.org/files/943137_02192015_2015026.pdf,Trial Decision
 960431,11/21/2025,https://nypdonline.org/files/960431_11212025_2025053.pdf,Trial Decision
 945171,9/2/2015,https://nypdonline.org/files/945171_09022015_2015016.pdf,Trial Decision
-946912,10/2/2024,https://nypdonline.org/files/946912_10022024_2024068.pdf,Trial Decision
 936468,3/25/2015,https://nypdonline.org/files/936468_03252015_2015018.pdf,Trial Decision
 946926,9/16/2022,https://nypdonline.org/files/946926_09162022_2022038.pdf,Trial Decision
 958502,12/29/2025,https://nypdonline.org/files/Diaz_12292025.pdf,Deviation Letter
@@ -198,7 +196,6 @@ taxid,date,url,type
 930072,3/27/2015,https://nypdonline.org/files/930072_03272015_2015162.pdf,Trial Decision
 938395,5/23/2016,https://nypdonline.org/files/938395_05232016_2016075.pdf,Trial Decision
 943193,2/27/2015,https://nypdonline.org/files/943193_02272015_2015047.pdf,Trial Decision
-967049,7/30/2025,https://nypdonline.org/files/967049_07302025_2025033.pdf,Trial Decision
 945682,10/10/2014,https://nypdonline.org/files/945682_10102014_2014004.pdf,Trial Decision
 951699,10/4/2024,https://nypdonline.org/files/951699_10042024_2024071.pdf,Trial Decision
 948001,10/14/2016,https://nypdonline.org/files/948001_10142016_2016103.pdf,Trial Decision
@@ -591,6 +588,7 @@ taxid,date,url,type
 924463,11/21/2012,https://nypdonline.org/files/924463_11212012_2012004.pdf,Trial Decision
 920811,9/20/2011,https://nypdonline.org/files/920811_09202011_2011095.pdf,Trial Decision
 965859,9/20/2023,https://nypdonline.org/files/965859_09202023_2023064.pdf,Trial Decision
+955457,5/19/2023,https://nypdonline.org/files/955457_05192023_2023024.pdf,Trial Decision
 931178,5/28/2021,https://nypdonline.org/files/931178_05282021_2021024.pdf,Trial Decision
 962091,5/4/2023,https://nypdonline.org/files/962091_05042023_2023025.pdf,Trial Decision
 934158,8/19/2009,https://nypdonline.org/files/934158_08192009_2009027.pdf,Trial Decision
