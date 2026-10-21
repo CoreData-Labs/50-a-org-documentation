@@ -26420,3 +26420,5 @@ https://s3.documentcloud.org/documents/28711037/945623_08072026_2026040pdf.pdf >
 https://s3.documentcloud.org/documents/28719566/pali_09302026pdf.pdf > PDFs/961060/pali_09302026pdf.pdf
 https://s3.documentcloud.org/documents/28822510/202501869_redactedclosingreportpdf.pdf > PDFs/967565/202501869_redactedclosingreportpdf.pdf
 https://s3.documentcloud.org/documents/28822511/202501142_redactedclosingreportpdf.pdf > PDFs/974766/202501142_redactedclosingreportpdf.pdf
+https://s3.documentcloud.org/documents/28825514/velez_10152026pdf.pdf > PDFs/971722/velez_10152026pdf.pdf
+https://s3.documentcloud.org/documents/28825513/lopez_10152026pdf.pdf > PDFs/969177/lopez_10152026pdf.pdf
